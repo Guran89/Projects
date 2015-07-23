@@ -5,7 +5,7 @@ library(ggplot2)
 library(maptools)
 
 #Set working directory
-setwd("/Users/kristoka/Documents/Programmering/R/WorldMap")
+setwd("/Users/kristoka/Documents/R/WorldMap")
 
 #Load data
 data <- read.delim("cities.txt", header = T, stringsAsFactors = FALSE)
@@ -19,3 +19,6 @@ map("world", fill = TRUE, col = "white", bg = "lightblue", ylim = c(-60, 90), ma
 
 #Plot cities on map
 points(geo_data$lon, geo_data$lat, col = "red", pch = 16, cex = .5)
+
+#Save geo_data
+write.csv(geo_data, file = "geo_data.csv", row.names = FALSE)
