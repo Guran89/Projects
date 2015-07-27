@@ -1,1 +1,1 @@
-Here I collect different projects I’m working on in Python. Most of them will probably not be of any interest for anyone beside me. But you are welcome to check them out anyway.
+Here I collect different projects I’m working on in Python. Most of them will probably not be of any interest for anyone but me. But you are welcome to check them out anyway.
