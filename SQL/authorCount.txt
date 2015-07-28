@@ -1,0 +1,9 @@
+—-Grund för att räkna antal författare per publikation
+
+SELECT c.pubid, COUNT(p.firstname) AS authorCount--, array_to_string(array_agg(c.title), '; ')
+FROM uplmain AS c
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN persons AS p ON pp.personid = p.personid
+WHERE c.pubyear = 2014
+GROUP BY c.pubid
+ORDER BY c.pubid
