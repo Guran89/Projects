@@ -1,0 +1,1 @@
+Numbers of authors per publication for the year 2014. The script is easy to adapt to other years as well.
