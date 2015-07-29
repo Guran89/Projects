@@ -1,4 +1,5 @@
-—-Paul Meaney har ”Meaney” som personid, vilket gör att algoritmen inte fungerar. Tillfälligt uppdaterad algoritm som löser problemet för stunden.
+--Paul Meaney har ”Meaney” som personid, vilket gör att algoritmen inte fungerar.
+--Tillfälligt uppdaterad algoritm som löser problemet för stunden.
 
 SELECT
   CASE
