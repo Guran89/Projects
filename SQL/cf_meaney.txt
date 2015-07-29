@@ -1,0 +1,16 @@
+—-Paul Meaney har ”Meaney” som personid, vilket gör att algoritmen inte fungerar. Tillfälligt uppdaterad algoritm som löser problemet för stunden.
+
+SELECT
+  CASE
+    WHEN t.personid = 0
+      THEN namn
+    ELSE p.lastname||', '||p.firstname
+  END AS helnamn, t.personid, COUNT(cx5), SUM(cx5/fcsx5)/COUNT(cx5) AS cf
+FROM (
+   SELECT kaw.namn, CAST(kaw.personid AS INTEGER), cwts.cx5, cwts.fcsx5
+   FROM cwts, kaw
+   WHERE cwts.isi_id = kaw.isi_id
+   AND NOT kaw.personid = 'Meaney'
+   AND cwts.py BETWEEN 2003 AND 2012) AS t
+INNER JOIN persons AS p ON t.personid = p.personid
+GROUP BY t.personid, helnamn
