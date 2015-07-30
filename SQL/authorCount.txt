@@ -1,4 +1,4 @@
-—-Grund för att räkna antal författare per publikation
+--Grund för att räkna antal författare per publikation
 
 SELECT c.pubid, COUNT(p.firstname) AS author_count--, array_to_string(array_agg(c.title), '; ')
 FROM uplmain AS c
