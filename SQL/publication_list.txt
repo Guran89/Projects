@@ -1,0 +1,42 @@
+SELECT c.pubid, d.sv_name, c.pubyear, p.firstname||' '||p.lastname AS namn, c.title, isi.isi_id
+FROM uplmain AS c
+LEFT JOIN person_publ AS pp ON c.dbid = pp.dbid
+LEFT JOIN persons AS p ON pp.personid = p.personid
+LEFT JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+LEFT JOIN departments AS d ON dpp.deptid = d.deptid
+LEFT JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid
+LEFT JOIN isi_full AS isi ON cic.isi_id = isi.isi_id
+WHERE (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375)
+AND c.pubyear BETWEEN 2010 AND 2014
+AND c.pubtype IN (2, 5, 9, 10)
+ORDER BY c.pubyear
+
+--Stinas omodifierade kod. Ger 1587 träffar.
+--Första subqueryn ger 263 träffar, andra ger 1329.
+--Min kod får dessa resultat beroende på RIGHT eller LEFT JOINS används.
+
+select cpl.pubid, cpl.sv_name, cpl.pubyear, cpl.namn, cpl.title, wos.isi_id
+from
+(select uplmain.pubid, departments.sv_name, uplmain.pubyear, persons.firstname||' '|| persons.lastname as namn, uplmain.title, isi_full.isi_id
+from uplmain, person_publ, persons, dept_pers_publ, departments, cross_isi_cpl, isi_full
+where person_publ.personid = persons.personid
+and uplmain.dbid = person_publ.dbid
+and person_publ.pd_id=dept_pers_publ.pd_id
+and dept_pers_publ.deptid=departments.deptid
+and isi_full.isi_id = cross_isi_cpl.isi_id
+and cross_isi_cpl.cpl_pubid = uplmain.pubid
+and (departments.deptid in(375) or parentid in(375) or grandparentid in(375))
+and uplmain.pubyear between 2010 and 2014
+and uplmain.pubtype in (2,5,9,10)) as wos
+right join
+(select uplmain.pubid, departments.sv_name, uplmain.pubyear, persons.firstname||' '|| persons.lastname as namn, uplmain.title
+from uplmain, person_publ, persons, dept_pers_publ, departments
+where person_publ.personid = persons.personid
+and uplmain.dbid = person_publ.dbid
+and person_publ.pd_id=dept_pers_publ.pd_id
+and dept_pers_publ.deptid=departments.deptid
+and (departments.deptid in(375) or parentid in(375) or grandparentid in(375))
+and uplmain.pubyear between 2010 and 2014
+and uplmain.pubtype in (2,5,9,10))as cpl
+on wos.pubid = cpl.pubid
+order by pubyear
