@@ -45,5 +45,14 @@ while t < 10:
 data = 1, 2, 3, 4, 5, 43, 34, 32, 4435, 56, 34, 1
 count = 0
 for i in data:
-    count += 1
+    count = count + 1
 print(count)
+
+För att lära mer
+TheNewBoston: https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+
+Sentdex: https://www.youtube.com/watch?v=oVp1vrfL_w4&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M
+
+Python Cookbook: http://shop.oreilly.com/product/0636920027072.do
+
+Learning Python: http://shop.oreilly.com/product/0636920028154.do
