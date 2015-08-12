@@ -1,4 +1,4 @@
-—-Lista med publikationsID för publikationer där både Chalmers och GU förekommer.
+--Lista med publikationsID för publikationer där både Chalmers och GU förekommer.
 
 SELECT c.pubid
 FROM uplmain AS c
@@ -21,7 +21,7 @@ AND c.pubyear > 2012
 AND c.pubyear <= 2014
 
 
-—-Lista med publikationsID och InstanceID för publikationer där både Chalmers och GU förekommer.
+--Lista med publikationsID och InstanceID för publikationer där både Chalmers och GU förekommer.
 
 SELECT c.pubid, array_to_string(array_agg(di.instanceid), '; ')
 FROM uplmain AS c
