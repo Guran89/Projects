@@ -1,0 +1,7 @@
+Gren,Gustav,Vidar,Martina,Markus,Magnus,Linda,Josefin,Kristoffer
+Axe,2,3,0,3,5,3,2,2
+Catapult,2,3,0,3,2,3,2,2
+Bow,2,3,0,3,2,3,2,2
+Rat,1,2,3,2,1,1,3,3
+Crossbow,6,7,6,6,8,4,8,7
+Plats,7,4,8,1,2,5,3,6
