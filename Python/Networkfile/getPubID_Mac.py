@@ -11,7 +11,7 @@ in-fil ska se ut:
 def getPubID(input_file):
    #Importerar nödvändiga moduler och sätter varifrån filer läses in och hamnar efter scriptet är färdigt
    import os
-   os.chdir('/Users/CID/Desktop') #Fyll i ditt CID där det står ”CID” till vänster
+   os.chdir('/Users/kristoka/Desktop') #Fyll i ditt CID där det står ”CID” till vänster
    
    #Funktionen för att läsa in och förbereda filen från SQL för vidare användning
    f = open(input_file)
@@ -32,4 +32,4 @@ def getPubID(input_file):
             pubids.write(i + ',')
 
 
-getPubID('namn på den sparade textfilen')
+getPubID('pubids_input.txt')

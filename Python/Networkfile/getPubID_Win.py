@@ -36,6 +36,6 @@ def getPubID(input_file):
             pubids.write(i + ',')
 
 #Ändra till rätt directory och filnamn för utfilen från metri
-getPubID('D:/Users/sushan.NET/Desktop/samarbeten.txt')
+getPubID('D:/Users/sushan.NET/Desktop/pubids_input.txt')
 
 
