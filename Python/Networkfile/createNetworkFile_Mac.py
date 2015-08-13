@@ -93,7 +93,7 @@ def print_file(filename):
         to_write = values + ' ' + keys
         file.write(to_write + '\n')
 
-    file.write('*Edges ' + str(edgecount)) #Skapar rubrik i filen samt räknar antal samarbeten mellan varje institutionspar
+    file.write('*Edges ' + str(edgecount) + '\n') #Skapar rubrik i filen samt räknar antal samarbeten mellan varje institutionspar
 
     #Skriver institutionspar samt antal publikationer institutionerna samskrivit
     for line in output.items():
