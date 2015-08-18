@@ -5,7 +5,7 @@ from itertools import chain, combinations
 import os
 from collections import Counter
 
-f = open('/Users/kristoka/Desktop/pubid_institution.txt', 'r', encoding='utf8') #Öppnar fil som ska konverteras
+f = open('/Users/kristoka/Desktop/input_file.txt', 'r', encoding='utf8') #Öppnar fil som ska konverteras
 
 pubid = [] #Skapar tom för publikations-ID
 dept = [] #Skapar tom för institutions-ID
