@@ -11,6 +11,6 @@ FROM(
    FROM cwts, kaw
    WHERE cwts.isi_id = kaw.isi_id
    AND cwts.percx5 > 80
-   AND cwts.py BETWEEN 2003 AND 2012) AS t
+   AND cwts.py BETWEEN 2004 AND 2013) AS t
 LEFT JOIN persons AS p ON t.personid = p.personid
 GROUP BY t.personid, helnamn
