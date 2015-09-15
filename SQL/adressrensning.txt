@@ -1,0 +1,7 @@
+--Kod för adressrensning för att kolla rätt affiliation i Metri.
+
+SELECT DISTINCT aff, city, state, country
+FROM scopus_aff_2008_2013
+WHERE aff LIKE '%%'
+--AND country LIKE '%%'
+ORDER BY aff
