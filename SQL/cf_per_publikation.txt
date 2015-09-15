@@ -1,4 +1,4 @@
---Cf per publikation
+--Cf (utan självciteringar) per publikation
 SELECT cx5/fcsx5 AS publ_cf
 FROM cwts
 INNER JOIN kaw ON cwts.isi_id = kaw.isi_id

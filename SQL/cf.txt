@@ -1,16 +1,7 @@
---Algoritm för att ta fram Cf.
-
-SELECT
-  CASE
-    WHEN t.personid = 0
-      THEN namn
-    ELSE p.firstname||', '||p.lastname
-  END AS helnamn, t.personid, COUNT(cx5), SUM(cx5/fcsx5)/COUNT(cx5) AS cf
-FROM (
-   SELECT kaw.namn, kaw.personid, cwts.cx5, cwts.fcsx5
-   FROM cwts, kaw
-   WHERE cwts.isi_id = kaw.isi_id
-   AND cwts.py BETWEEN 2004 AND 2013) AS t --Ändra till aktuella år
-LEFT JOIN persons AS p ON t.personid = p.personid
-GROUP BY t.personid, helnamn
-ORDER BY helnamn
+--Räkna Cf (utan självciteringar), ta med publiceringsår och titel
+SELECT cx5/fcsx5 AS cf, c.pubyear, c.title
+FROM uplmain AS c
+LEFT JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid 
+LEFT JOIN cwts ON cic.isi_id = cwts.isi_id
+WHERE c.pubid IN (pubIDs här)
+ORDER BY cf

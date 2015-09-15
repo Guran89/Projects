@@ -1,11 +1,6 @@
---Algoritm för att ta fram Top-10%.
+--Algoritm för att ta fram Top-10% till KAW.
 
-SELECT
-  CASE
-    WHEN t.personid = 0
-      THEN namn
-    ELSE p.lastname||', '||p.firstname
-  END AS helnamn, t.personid, COUNT(DISTINCT t.isi_id) AS top10
+SELECT p.lastname||', '||p.firstname AS helnamn, t.personid, COUNT(DISTINCT t.isi_id) AS top10
 FROM(
    SELECT kaw.namn, kaw.personid, cwts.isi_id, cwts.percx5
    FROM cwts, kaw

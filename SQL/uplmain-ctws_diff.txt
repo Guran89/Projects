@@ -1,0 +1,6 @@
+--Kontrollera vilka publikationer från uplmain som ej finns i cwts.
+SELECT c.pubid, cwts.isi_id, c.title
+FROM uplmain AS c
+LEFT JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid 
+LEFT JOIN cwts ON cic.isi_id = cwts.isi_id
+WHERE c.pubid IN (pubID här)
