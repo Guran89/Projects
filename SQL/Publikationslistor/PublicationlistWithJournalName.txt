@@ -1,0 +1,15 @@
+--Tar fram lista med publikationens titel, tidskriftens titel  författare, samt WoS- och Scopus-ID för en viss institution
+
+SELECT DISTINCT c.pubid, c.title, c.sourcetitle, array_to_string(array_agg(p.firstname ||' '|| p.lastname ), '; ')AS namn, cic.isi_id, csc.sc_id
+FROM uplmain AS c
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN persons AS p ON pp.personid = p.personid
+LEFT JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid
+LEFT JOIN cross_sco_cpl AS csc ON c.pubid = csc.cpl_pubid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+WHERE (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375) --Ändra institutionsID här
+AND c.pubtype = 5 --5 = Publikationstyp refereegranskad artikel. 
+AND c.pubyear BETWEEN 2014 AND 2015 --Ändra till aktuella år här
+GROUP BY c.pubid, c.title, c.sourcetitle, cic.isi_id, csc.sc_id
+ORDER BY c.pubid
