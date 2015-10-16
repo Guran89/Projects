@@ -8,9 +8,9 @@ FROM cwts,
 	INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
 	INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
 	INNER JOIN departments AS d ON dpp.deptid = d.deptid
-	WHERE (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375)) AS temp
+	WHERE (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375)) AS temp --Ändra till aktuellt institutionsID här.
 WHERE cwts.isi_id = temp.isi_id
-AND cwts.py BETWEEN 2005 AND 2009
+AND cwts.py BETWEEN 2005 AND 2009 --Ändra till aktuella år här
 
 
 

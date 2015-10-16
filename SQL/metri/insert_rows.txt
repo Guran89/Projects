@@ -1,0 +1,6 @@
+--Lägg till ny rad till tabell
+
+INSERT INTO tabell (kolumn1, kolumn2, kolumn3)
+VALUES (värde1, värde2, värde2)
+
+--Förklaring: Lägger till en ny rad i tabellen. Värden och kolumner måste skrivas i samma ordning.

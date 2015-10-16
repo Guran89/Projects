@@ -1,0 +1,8 @@
+--Uppdatera tabell
+
+UPDATE tabell
+SET tabell.kolumn = värde
+WHERE id = X
+
+--Förklaring: Uppdatera en tabell, välj vilken kolumn som ska uppdateras och vilket värde som ska sättas.
+--GLÖM INTE WHERE-satsen som berättar vilken rad som påverkas, annars ändras värdet för samtliga rader i kolumnen.
