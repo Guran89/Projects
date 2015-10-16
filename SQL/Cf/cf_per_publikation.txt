@@ -1,6 +1,7 @@
---Cf (utan självciteringar) per publikation
-SELECT cx5/fcsx5 AS publ_cf
-FROM cwts
-INNER JOIN kaw ON cwts.isi_id = kaw.isi_id
-WHERE cwts.py BETWEEN 2004 AND 2013 -- Ändra till aktuella år
-AND kaw.personid = 4411 --Ändra till aktuellt personid
+--Räkna Cf (utan självciteringar) för publikationer, ta med publiceringsår och titel
+SELECT cx5/fcsx5 AS cf, c.pubyear, c.title
+FROM uplmain AS c
+LEFT JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid 
+LEFT JOIN cwts ON cic.isi_id = cwts.isi_id
+WHERE c.pubid IN (pubIDs här)
+ORDER BY cf
