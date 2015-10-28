@@ -1,5 +1,11 @@
 __author__ = ('sushan', 'kristoka')
 
+"""
+Scriptet tar en fil strukturerad med:
+pubid;"institutionsnamn"
+pubid;"institutionsnamn"
+"""
+
 #Importerar nödvändiga paket
 from itertools import chain, combinations
 import os
@@ -13,7 +19,7 @@ dept = [] #Skapar tom för institutions-ID
 #Splittar varje rad i f på ; och lägger till institutionsnamnet i dept. ".strip()" returnerar en kopia av en textsträng där 
 #whitespace raderats i början och slutet av varje sträng.
 for i in f:
-    list = [elt.strip() for elt in i.split(";")]
+    list = i.split(";")
     pubid.append(list[0])
     dept.append(list[1])
 

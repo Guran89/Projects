@@ -18,7 +18,7 @@ def getPubID(input_file):
    pubids = open('pubids.txt', 'w')
    for line in f:
         #Splittar varje rad i filen på ";"
-        list = [elt.strip() for elt in line.split(";")]
+        list = i.split(";")
         pubid = []
         #Söker efter substrängarna '2, 1' eller '1, 2' i strängen list[1]
         if '2, 1' in list[1]:
