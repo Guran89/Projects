@@ -1,4 +1,5 @@
 --Räkna Cf (utan självciteringar) för publikationer, ta med publiceringsår och titel
+
 SELECT cx5/fcsx5 AS cf, c.pubyear, c.title
 FROM uplmain AS c
 LEFT JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid 
