@@ -15,4 +15,4 @@ INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
 INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
 INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
 WHERE personid = 269 --Ändra till aktuellt personID här
-AND py BETWEEN 2000 AND 2013) AS temp --Ändra här till de puliceringsår som ska tas med i beräkningen
+AND py BETWEEN 2000 AND 2013) AS temp --Ändra här till de publiceringsår som ska tas med i beräkningen
