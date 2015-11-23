@@ -1,23 +1,4 @@
 --Algoritm för Cf för en viss institution.
-
-SELECT COUNT(cwts.*), SUM(cwts.cx5/cwts.fcsx5)/COUNT(cwts.*)
-FROM cwts,
-	(SELECT DISTINCT cic.isi_id
-	FROM cross_isi_cpl AS cic
-	INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
-	INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
-	INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
-	INNER JOIN departments AS d ON dpp.deptid = d.deptid
-	WHERE (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375)) AS temp --Ändra till aktuellt institutionsID här.
-WHERE cwts.isi_id = temp.isi_id
-AND cwts.py BETWEEN 2005 AND 2009 --Ändra till aktuella år här
-
-
-
---InstitutionsID:
---Matematiska vetenskaper		371--Fundamental fysik			523--Bygg- och miljöteknik			373--Kemi- och bioteknik			369--Energi och miljö			368--Material- och tillverkningsteknik	370--Sjöfart och marin teknik		374--Teknikens ekonomi och organisation	375--Data- och informationsteknik		366--Signaler och system			41--Radio- och rymdvetenskap		40--Tillämpad mekanik			46--Teknisk fysik				55--Produkt- och produktionsutveckling	52--Arkitektur				367--Tillämpad informationsteknologi	1643--Mikroteknologi och nanovetenskap	182--Förslag på uppdaterad kod
-
-
 SELECT COUNT(cxf) AS n, AVG(cxf) AS cf
 FROM(
 	SELECT cwts.py, cwts.isi_id,
@@ -36,3 +17,7 @@ FROM(
 	INNER JOIN cwts ON cic.isi_id = cwts.isi_id
 	WHERE (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375)
 	AND cwts.py BETWEEN 2010 AND 2013) AS temp --Ändra till aktuellt institutionsID här
+
+
+--InstitutionsID:
+--Matematiska vetenskaper		371--Fundamental fysik			523--Bygg- och miljöteknik			373--Kemi- och bioteknik			369--Energi och miljö			368--Material- och tillverkningsteknik	370--Sjöfart och marin teknik		374--Teknikens ekonomi och organisation	375--Data- och informationsteknik		366--Signaler och system			41--Radio- och rymdvetenskap		40--Tillämpad mekanik			46--Teknisk fysik				55--Produkt- och produktionsutveckling	52--Arkitektur				367--Tillämpad informationsteknologi	1643--Mikroteknologi och nanovetenskap	182

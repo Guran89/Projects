@@ -1,8 +1,15 @@
 --Räkna Cf (utan självciteringar) för publikationer, ta med publiceringsår och titel
 
-SELECT cx5/fcsx5 AS cf, c.pubyear, c.title
-FROM uplmain AS c
-LEFT JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid 
-LEFT JOIN cwts ON cic.isi_id = cwts.isi_id
-WHERE c.pubid IN (pubIDs här)
-ORDER BY cf
+SELECT c.pubyear, c.title,
+	CASE
+		WHEN py = 2010 THEN cx5/fcsx5 --Vilka publiceringsår som används. I det här fallet 2010-2013
+		WHEN py = 2011 THEN cx4/fcsx4
+		WHEN py = 2012 THEN cx3/fcsx3
+		WHEN py = 2013 THEN cx2/fcsx2
+		ELSE cx5/cwts.fcsx5
+	END AS cxf
+FROM cwts
+INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+WHERE c.pubid IN () --PubID mellan parenteser
+AND c.pubid BETWEEN 2010 AND 2013 --Ändra här till de år som är relevanta
