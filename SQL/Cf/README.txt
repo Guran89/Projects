@@ -1,1 +1,0 @@
-Koden här behöver ses över och CASE läggas in för cf_institution.txt och cf_per_publikation.txt.
