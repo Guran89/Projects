@@ -1,0 +1,6 @@
+--Hämta data från en annan tabell och lägg till i önskad tabell på de rader där column2 matchar.
+
+UPDATE table1 AS t1
+SET column1 = t2.column1
+FROM table2 AS t2
+WHERE t2.column2 = t1.column2 
