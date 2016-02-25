@@ -1,0 +1,17 @@
+--Cf för varje publikation för en viss institution.
+SELECT cwts.py, cwts.isi_id,
+	CASE
+		WHEN py = 2010 THEN cx5/fcsx5 --Vilka publiceringsår som används. I det här fallet 2010-2013
+		WHEN py = 2011 THEN cx4/fcsx4
+		WHEN py = 2012 THEN cx3/fcsx3
+		WHEN py = 2013 THEN cx2/fcsx2
+		ELSE cx5/cwts.fcsx5
+	END AS cxf
+FROM cross_isi_cpl AS cic
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN cwts ON cic.isi_id = cwts.isi_id
+WHERE (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375) --Ändra till aktuell institution här
+AND cwts.py BETWEEN 2010 AND 2013
