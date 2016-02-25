@@ -1,0 +1,86 @@
+--CF.1
+--Kod för att ta fram Cf för samtliga institutioner förutom MV.
+SELECT temp.instid AS id, temp.sv_name AS inst, COUNT(temp.cxfp) AS n, SUM(temp.cxfp)/COUNT(temp.cxfp) AS cxf, '' AS si_cxf
+FROM (
+	SELECT DISTINCT cin.instid, cin.sv_name, cwts.isi_id,
+		CASE
+			WHEN cwts.py = 2010 THEN cwts.cx5/cwts.fcsx5 --Ändra till aktuella år
+			WHEN cwts.py = 2011 THEN cwts.cx4/cwts.fcsx4
+			WHEN cwts.py = 2012 THEN cwts.cx3/cwts.fcsx3
+			WHEN cwts.py = 2013 THEN cwts.cx2/cwts.fcsx2
+		END AS cxfp
+	FROM cwts
+	INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
+	INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+	INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+	INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+	INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid
+	INNER JOIN chalmers_inst AS cin ON din.instid = cin.instid
+	WHERE cwts.py BETWEEN 2010 AND 2013 --Ändra till aktuella år
+	--Ta inte med MV i resultatet
+	AND cin.instid != 371) AS temp
+GROUP BY temp.instid, temp.sv_name
+ORDER BY temp.sv_name
+
+
+--CF.2
+--Kod för att ta fram Cf (utan självciteringar) per artikel.
+--Institutionen MV ej inkluderad i koden.
+SELECT DISTINCT cin.sv_name, cin.instid, cwts.isi_id,
+	CASE
+		WHEN cwts.py = 2010 THEN cwts.cx5/cwts.fcsx5 --Ändra till aktuella år
+		WHEN cwts.py = 2011 THEN cwts.cx4/cwts.fcsx4
+		WHEN cwts.py = 2012 THEN cwts.cx3/cwts.fcsx3
+		WHEN cwts.py = 2013 THEN cwts.cx2/cwts.fcsx2
+	END AS cxfp
+FROM cwts
+INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_inst AS din ON d.deptid = din.deptid
+INNER JOIN chalmers_inst AS cin ON din.instid = cin.instid
+WHERE ((d.deptid = 367 OR d.parentid = 367 OR d.grandparentid = 367) --Arkitektur (A)
+OR (d.deptid = 1886 OR d.parentid = 1886 OR d.grandparentid = 1886) --Bio och Bioteknik (BIO)
+OR (d.deptid = 373 OR d.parentid = 373 OR d.grandparentid = 373) --Bygg och Material (BoM)
+OR (d.deptid = 368 OR d.parentid = 368 OR d.grandparentid = 368) --Energi och Miljö (EoM)
+OR (d.deptid = 523 OR d.parentid = 523 OR d.grandparentid = 523) --Fundamental Fysik (FF)
+OR (d.deptid = 369 OR d.parentid = 369 OR d.grandparentid = 369) --Kemi och Bio (KB)
+OR (d.deptid = 1885 OR d.parentid = 1885 OR d.grandparentid = 1885) --Kemi och Kemiteknik (K)
+OR (d.deptid = 370 OR d.parentid = 370 OR d.grandparentid = 370) --Material och Tillverkningsteknik (MoT)
+OR (d.deptid = 182 OR d.parentid = 182 OR d.grandparentid = 182) --Mikroteknologi och Nanovetenskap (MC2)
+OR (d.deptid = 52 OR d.parentid = 52 OR d.grandparentid = 52) --Produkt- och Produktionsutveckling (PPU)
+OR (d.deptid IN (40,1695) OR d.parentid IN (40,1695) OR d.grandparentid IN (40,1695)) --Radio och Rymdvetenskap/Rymd- och Geovetenskap (RoG)
+OR (d.deptid = 41 OR d.parentid = 41 OR d.grandparentid = 41) --Signaler och System (S2)
+OR (d.deptid = 374 OR d.parentid = 374 OR d.grandparentid = 374) --Sjöfart och Marin Teknik (SoM)
+OR (d.deptid = 375 OR d.parentid = 375 OR d.grandparentid = 375) --Teknikens Ekonomi och Organisation (I)
+OR (d.deptid = 55 OR d.parentid = 55 OR d.grandparentid = 55) --Teknisk Fysik (TF)
+OR (d.deptid = 46 OR d.parentid = 46 OR d.grandparentid = 46)) --Tillämpad Mekanik (TM)
+AND cwts.py BETWEEN 2010 AND 2013 --Ändra till aktuella år
+ORDER BY cin.sv_name, cwts.isi_id
+
+
+--CF.3
+--Kod för att ta fram Cf (inklusive självciteringar) per artikel.
+SELECT DISTINCT cin.sv_name, cin.instid, cwts.isi_id,
+	CASE
+		WHEN cwts.py = 2010 THEN cwts.c5/cwts.fcs5 --Ändra till aktuella år
+		WHEN cwts.py = 2011 THEN cwts.c4/cwts.fcs4
+		WHEN cwts.py = 2012 THEN cwts.c3/cwts.fcs3
+		WHEN cwts.py = 2013 THEN cwts.c2/cwts.fcs2
+	END AS cfp
+FROM cwts
+INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid
+INNER JOIN chalmers_inst AS cin ON din.instid = cin.instid
+WHERE ((d.deptid = 523 OR d.parentid = 523 OR d.grandparentid = 523) --Fundamental Fysik (FF)
+OR (d.deptid = 182 OR d.parentid = 182 OR d.grandparentid = 182) --Mikroteknologi och Nanovetenskap (MC2)
+OR (d.deptid IN (40,1695) OR d.parentid IN (40,1695) OR d.grandparentid IN (40,1695)) --Radio- och Rymdvetenskap/Rymd- och Geovetenskap (RoG)
+OR (d.deptid = 41 OR d.parentid = 41 OR d.grandparentid = 41)) --Signaler och System (S2)
+AND cwts.py BETWEEN 2010 AND 2013 --Ändra till aktuella år
+ORDER BY cin.sv_name, cwts.isi_id

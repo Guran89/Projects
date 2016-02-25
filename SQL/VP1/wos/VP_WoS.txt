@@ -1,0 +1,94 @@
+--WoS.1
+--Kod för att beräkna antal publikationer i WoS per institution
+--Koden innefattar inte institutionen MV
+SELECT temp.py, temp.inst, COUNT(DISTINCT temp.isi_id)
+FROM (
+SELECT isi.py, din.inst_sv AS inst, isi.isi_id
+FROM isi_full AS isi
+INNER JOIN cross_isi_cpl AS cic ON isi.isi_id = cic.isi_id
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN dept_instance AS di ON dpp.deptid = di.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid --dept_inst är en vy som anger institution för varje post i tabellen departments
+WHERE di.instanceid = 1
+AND din.inst_en::text ~~ 'Dep%'::text --Bara data för inst - ej centrumbildningar osv.
+AND isi.py in (2014, 2015) --Ändra till aktuella år
+AND (isi.dt LIKE '%Article%' OR isi.dt LIKE 'Review%' OR isi.dt LIKE '%Letter%')
+
+UNION
+
+-- Data för hela DoIT, ITIT samt MV från isi_full
+SELECT isi.py,
+	CASE
+		WHEN din.inst_sv LIKE '%data%' THEN 'Institutionen för data- och informationsteknik (Chalmers+GU)'
+		WHEN din.inst_sv LIKE '%tillämpad info%' THEN 'Institutionen för tillämpad informationsteknologi (Chalmers+GU)'
+		WHEN din.inst_sv LIKE '%matematiska%' THEN 'Institutionen för matematiska vetenskaper (Chalmers+GU)' 
+	END AS inst,
+isi.isi_id
+FROM isi_full AS isi
+INNER JOIN cross_isi_cpl AS cic ON isi.isi_id = cic.isi_id
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN dept_instance AS di ON dpp.deptid = di.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid --dept_inst är en vy som anger institution för varje post i tabellen departments
+WHERE din.instid IN (366, 1294, 1293, 1643, 371)
+AND isi.py IN (2014, 2015) --Ändra till aktuella år
+AND (isi.dt LIKE '%Article%' OR isi.dt LIKE 'Review%' OR isi.dt LIKE '%Letter%')
+
+UNION
+
+-- Data för hela DoIT, ITIT samt MV från isi_gu
+SELECT isig.py,
+	CASE
+		WHEN din.inst_sv LIKE '%data%' THEN 'Institutionen för data- och informationsteknik (Chalmers+GU)'
+		WHEN din.inst_sv LIKE '%tillämpad info%' THEN 'Institutionen för tillämpad informationsteknologi (Chalmers+GU)'
+		WHEN din.inst_sv LIKE '%matematiska%' THEN 'Institutionen för matematiska vetenskaper (Chalmers+GU)' 
+	END AS inst,
+isig.isi_id
+FROM isi_gu AS isig
+INNER JOIN cross_isi_gu AS cig ON isig.isi_id = cig.isi_id
+INNER JOIN uplmain AS c ON cig.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN dept_instance AS di ON dpp.deptid = di.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid --dept_inst är en vy som anger institution för varje post i tabellen departments
+WHERE din.instid IN (366, 1294, 1293, 1643, 371)
+AND isig.py IN (2014, 2015) --Ändra till aktuella år
+AND (isig.dt LIKE '%Article%' OR isig.dt LIKE 'Review%' OR isig.dt LIKE '%Letter%')) AS temp
+GROUP BY temp.py, temp.inst
+
+
+--WoS.2
+--Kod för att beräkna antal publikationer i WoS för institutionen MV
+SELECT temp.py, COUNT(DISTINCT temp.isi_id)
+FROM (
+SELECT isi.py, isi.isi_id
+FROM isi_full AS isi
+INNER JOIN cross_isi_cpl AS cic ON isi.isi_id = cic.isi_id
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN mv_ch_gu AS mcg ON pp.personid = mcg.personid
+WHERE isi.py = 2015 --Ändra till aktuellt år
+AND (d.deptid = 371 OR d.parentid = 371 OR d.grandparentid = 371)
+AND (mcg.ch13 = 'x' OR mcg.ch14 = 'x' OR mcg.ch15 = 'x')
+AND (isi.dt LIKE '%Article%' OR isi.dt LIKE 'Review%' OR isi.dt LIKE '%Letter%')
+
+UNION
+
+SELECT isig.py, isig.isi_id
+FROM isi_gu AS isig
+INNER JOIN cross_isi_gu AS cig ON isig.isi_id = cig.isi_id
+INNER JOIN uplmain AS c ON cig.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN mv_ch_gu AS mcg ON pp.personid = mcg.personid
+WHERE isig.py = 2015 --Ändra till aktuellt år
+AND (d.deptid = 371 OR d.parentid = 371 OR d.grandparentid = 371)
+AND (mcg.ch13 = 'x' OR mcg.ch14 = 'x' OR mcg.ch15 = 'x')
+AND (isig.dt LIKE '%Article%' OR isig.dt LIKE 'Review%' OR isig.dt LIKE '%Letter%')) AS temp
+GROUP BY temp.py
