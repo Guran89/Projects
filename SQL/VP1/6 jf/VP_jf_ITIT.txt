@@ -1,0 +1,83 @@
+--JF.8
+--Kod som tar fram jf (exklusive självciteringar) för ITIT
+SELECT COUNT(temp.jxf) AS n, SUM(temp.jxf)/COUNT(temp.jxf) AS Jxf
+FROM (
+SELECT DISTINCT cwts.isi_id,
+	CASE
+		WHEN cwts.py = 2010 THEN cwts.jcsx5/cwts.fcsx5 --Ändra till aktuella år
+		WHEN cwts.py = 2011 THEN cwts.jcsx4/cwts.fcsx4
+		WHEN cwts.py = 2012 THEN cwts.jcsx3/cwts.fcsx3
+		WHEN cwts.py = 2013 THEN cwts.jcsx2/cwts.fcsx2
+	END AS jxf
+FROM uplmain AS c
+INNER JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid
+INNER JOIN cwts ON cic.isi_id = cwts.isi_id
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid
+WHERE ((d.deptid = 1643 OR d.parentid = 1643 OR d.grandparentid = 1643)
+OR (d.deptid = 1293 OR d.parentid = 1293 OR d.grandparentid = 1293))
+AND c.pubyear BETWEEN 2010 AND 2013 --Ändra till aktuella år
+
+UNION
+
+SELECT DISTINCT cwts.isi_id,
+	CASE
+		WHEN cwts.py = 2010 THEN cwts.jcsx5/cwts.fcsx5 --Ändra till aktuella år
+		WHEN cwts.py = 2011 THEN cwts.jcsx4/cwts.fcsx4
+		WHEN cwts.py = 2012 THEN cwts.jcsx3/cwts.fcsx3
+		WHEN cwts.py = 2013 THEN cwts.jcsx2/cwts.fcsx2
+	END AS jxf
+FROM uplmain AS c
+INNER JOIN cross_isi_gu AS cig ON c.pubid = cig.cpl_pubid
+INNER JOIN cwts ON cig.isi_id = cwts.isi_id
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid
+WHERE ((d.deptid = 1643 OR d.parentid = 1643 OR d.grandparentid = 1643)
+OR (d.deptid = 1293 OR d.parentid = 1293 OR d.grandparentid = 1293))
+AND c.pubyear BETWEEN 2010 AND 2013 --Ändra till aktuella år
+) AS temp
+
+
+--JF.9
+--Kod som tar fram jf (exklusive självciteringar) för enskilda publikationer för institutionen ITIT
+SELECT DISTINCT cwts.isi_id,
+	CASE
+		WHEN cwts.py = 2010 THEN cwts.jcsx5/cwts.fcsx5 --Ändra till aktuella år
+		WHEN cwts.py = 2011 THEN cwts.jcsx4/cwts.fcsx4
+		WHEN cwts.py = 2012 THEN cwts.jcsx3/cwts.fcsx3
+		WHEN cwts.py = 2013 THEN cwts.jcsx2/cwts.fcsx2
+	END AS jxf
+FROM uplmain AS c
+INNER JOIN cross_isi_cpl AS cic ON c.pubid = cic.cpl_pubid
+INNER JOIN cwts ON cic.isi_id = cwts.isi_id
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid
+WHERE ((d.deptid = 1643 OR d.parentid = 1643 OR d.grandparentid = 1643)
+OR (d.deptid = 1293 OR d.parentid = 1293 OR d.grandparentid = 1293))
+AND c.pubyear BETWEEN 2010 AND 2013 --Ändra till aktuella år
+
+UNION
+
+SELECT DISTINCT cwts.isi_id,
+	CASE
+		WHEN cwts.py = 2010 THEN cwts.jcsx5/cwts.fcsx5 --Ändra till aktuella år
+		WHEN cwts.py = 2011 THEN cwts.jcsx4/cwts.fcsx4
+		WHEN cwts.py = 2012 THEN cwts.jcsx3/cwts.fcsx3
+		WHEN cwts.py = 2013 THEN cwts.jcsx2/cwts.fcsx2
+	END AS jxf
+FROM uplmain AS c
+INNER JOIN cross_isi_gu AS cig ON c.pubid = cig.cpl_pubid
+INNER JOIN cwts ON cig.isi_id = cwts.isi_id
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid
+WHERE ((d.deptid = 1643 OR d.parentid = 1643 OR d.grandparentid = 1643)
+OR (d.deptid = 1293 OR d.parentid = 1293 OR d.grandparentid = 1293))
+AND c.pubyear BETWEEN 2010 AND 2013 --Ändra till aktuella år
