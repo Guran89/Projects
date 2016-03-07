@@ -1,4 +1,4 @@
---OA.1
+--OA_1.1
 SELECT tempcpl.pubyear,
 	CASE
 		WHEN tempcpl.pubtype = 2 THEN 'Konferensbidrag'
@@ -33,8 +33,7 @@ ON tempcpl.pubyear = tempoa.pubyear
 AND tempcpl.pubtype = tempoa.pubtype
 ORDER BY tempcpl.pubtype DESC, tempcpl.pubyear
 
-
-
+--OA_1.2
 SELECT tempcpl.pubyear,
 	CASE
 		WHEN tempcpl.pubtype = 2 THEN 'Konferensbidrag'

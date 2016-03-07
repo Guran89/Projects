@@ -1,4 +1,4 @@
---WoS.1
+--WoS_1.1
 --Kod för att beräkna antal publikationer i WoS per institution
 --Koden innefattar inte institutionen MV
 SELECT temp.py, temp.inst, COUNT(DISTINCT temp.isi_id)
@@ -60,7 +60,7 @@ AND (isig.dt LIKE '%Article%' OR isig.dt LIKE 'Review%' OR isig.dt LIKE '%Letter
 GROUP BY temp.py, temp.inst
 
 
---WoS.2
+--WoS_1.2
 --Kod för att beräkna antal publikationer i WoS för institutionen MV
 SELECT temp.py, COUNT(DISTINCT temp.isi_id)
 FROM (

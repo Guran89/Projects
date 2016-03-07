@@ -1,4 +1,4 @@
---CPL.1
+--CPL_1.1
 --Kod för att ta fram antal vetenskapliga publikationer per institution från CPL.
 --Koden innefattar ej institutionen MV.
 
@@ -48,7 +48,7 @@ GROUP BY c.pubyear, c.pubtype, inst
 ORDER BY pubyear, pubtype, inst
 
 
---CPL.2
+--CPL_1.2
 --Kod för att ta fram antal vetenskapliga publikationer för institutionen MV från CPL.
 SELECT c.pubyear,
 	CASE
@@ -70,7 +70,7 @@ AND (ch13 = 'x' OR ch14 = 'x' OR ch15 = 'x') --Uppdatera till aktuellt år -2
 GROUP BY c.pubtype, c.pubyear
 
 
---CPL.3
+--CPL_1.3
 --Ta fram språk för publikationer skrivna på institutionen Arkitektur (A)
 SELECT
 	CASE

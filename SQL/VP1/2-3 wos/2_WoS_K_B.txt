@@ -1,4 +1,4 @@
---WoS.3
+--WoS_2.1
 --Kod för att beräkna antal publikationer i WoS för K respektive B, bakåt i tiden med hjälp av personlista.
 SELECT temp.py, COUNT(DISTINCT temp.isi_id)
 FROM (
@@ -11,12 +11,12 @@ FROM (
 	INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
 	INNER JOIN dept_instance AS di ON dpp.deptid = di.deptid
 	INNER JOIN dept_inst AS din ON dpp.deptid = din.deptid --dept_inst är en vy som anger institution för varje post i tabellen departments
-	INNER JOIN pers_k_bio AS pkb ON p.personid = pkb.cpl_id
+	INNER JOIN pers_k_bio AS pkb ON p.personid = pkb.personid
 	WHERE di.instanceid = 1
-	AND din.inst_en::text ~~ 'Dep%'::text --Bara data för inst - ej centrumbildningar osv.
 	AND isi.py in (2011, 2012, 2013, 2014) --Ändra till aktuella år
 	AND (isi.dt LIKE '%Article%' OR isi.dt LIKE 'Review%' OR isi.dt LIKE '%Letter%')
 	AND pkb.k = 'Y'
+	--AND pkb.bio = 'Y'
 	AND din.inst_sv = 'Institutionen för kemi- och bioteknik'
 	) AS temp
 GROUP BY temp.py, temp.inst

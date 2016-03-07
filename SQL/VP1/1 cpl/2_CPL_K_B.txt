@@ -1,0 +1,23 @@
+--CPL_2.1
+--Kod för att beräkna antal publikationer i CPL för K respektive B bakåt i tiden med hjälp av personlista
+SELECT DISTINCT c.pubyear, COUNT(DISTINCT c.pubid) AS n,
+	CASE
+		WHEN c.pubtype = 5 THEN 'Artikel'
+		WHEN c.pubtype = 2 THEN 'Konferensbidrag'
+		WHEN c.pubtype = 10 THEN 'Kapitel'
+		ELSE 'Bok'
+	END AS pubtype
+FROM uplmain AS c
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_inst AS din ON d.deptid = din.deptid
+INNER JOIN pers_k_bio AS pkb ON pp.personid = pkb.personid
+WHERE din.instanceid = 1
+AND c.pubyear BETWEEN 2009 AND 2014
+AND c.pubtype IN (2, 5, 9, 10)
+AND din.instid = 369
+AND pkb.bio = 'Y'
+--AND pkb.k = 'Y'
+GROUP BY pubtype, c.pubyear
+ORDER BY pubtype, c.pubyear

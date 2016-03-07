@@ -1,0 +1,40 @@
+--CF_5.1
+--Kod för att ta fram CF för hela Chalmers
+SELECT COUNT(temp.cxfp) AS n, SUM(temp.cxfp)/COUNT(temp.cxfp) AS cxf, '' AS si_cxf
+FROM (
+	SELECT DISTINCT cwts.isi_id,
+		CASE
+			WHEN cwts.py = 2010 THEN cwts.cx5/cwts.fcsx5
+			WHEN cwts.py = 2011 THEN cwts.cx5/cwts.fcsx5
+			WHEN cwts.py = 2012 THEN cwts.cx3/cwts.fcsx3
+			WHEN cwts.py = 2013 THEN cwts.cx2/cwts.fcsx2
+		END AS cxfp
+	FROM cwts
+	INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
+	INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+	INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+	INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+	INNER JOIN departments AS d ON dpp.deptid = d.deptid
+	INNER JOIN dept_instance AS di ON d.deptid = di.deptid
+	WHERE di.instanceid = 1
+	AND cwts.py BETWEEN 2010 AND 2013) AS temp
+
+
+--CF_5.2
+--Kod för att ta fram CF för varje publikation för hela Chalmers
+SELECT DISTINCT cwts.isi_id,
+	CASE
+		WHEN cwts.py = 2010 THEN cwts.cx5/cwts.fcsx5
+		WHEN cwts.py = 2011 THEN cwts.cx5/cwts.fcsx5
+		WHEN cwts.py = 2012 THEN cwts.cx3/cwts.fcsx3
+		WHEN cwts.py = 2013 THEN cwts.cx2/cwts.fcsx2
+	END AS cxfp
+FROM cwts
+INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
+INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
+INNER JOIN person_publ AS pp ON c.dbid = pp.dbid
+INNER JOIN dept_pers_publ AS dpp ON pp.pd_id = dpp.pd_id
+INNER JOIN departments AS d ON dpp.deptid = d.deptid
+INNER JOIN dept_instance AS di ON d.deptid = di.deptid
+WHERE di.instanceid = 1
+AND cwts.py BETWEEN 2010 AND 2013
