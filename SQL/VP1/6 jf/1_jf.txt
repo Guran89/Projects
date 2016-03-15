@@ -32,7 +32,7 @@ SELECT DISTINCT cin.sv_name, cin.instid, cwts.isi_id,
 		WHEN cwts.py = 2012 THEN cwts.jcsx4/cwts.fcsx4
 		WHEN cwts.py = 2013 THEN cwts.jcsx3/cwts.fcsx3
 		WHEN cwts.py = 2014 THEN cwts.jcsx2/cwts.fcsx2
-	END AS jxp
+	END AS jxf
 FROM cwts
 INNER JOIN cross_isi_cpl AS cic ON cwts.isi_id = cic.isi_id
 INNER JOIN uplmain AS c ON cic.cpl_pubid = c.pubid
