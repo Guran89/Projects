@@ -3,10 +3,15 @@
 
 cid = input("Please enter your CID:\nCID: ")
 in_data = input("The name of the file you want to convert:\nFilename (with extension): ")
-out_data = input("What do you want the new file to be named?\nFilename (without extension): ")
+out_data = input("What do you want the new file to be named?\nFilename (with extension): ")
 data = open("/Users/"+cid+"/Desktop/"+in_data, "r").read()
 
 print("Counting occurrences of potential characters. Please wait.")
+
+data = data.replace(" \t", "")
+data = data.replace("\t ", "")
+data = data.replace(" \n", "")
+data = data.replace("\n ", "")
 
 pipe_count = 0
 hash_count = 0
@@ -29,6 +34,6 @@ print("Dollar ($): " + str(dollar_count))
 
 new_char = input("What character would you like to replace with?\n>")
 data_replaced = data.replace("\t", new_char)
-newfile = open(out_data, "w")
+newfile = open("/Users/"+cid+"/Desktop/"+out_data, "w")
 newfile.write(data_replaced)
 newfile.close()
