@@ -1,3 +1,4 @@
+#encoding: utf-8
 """Script for quickly replacing newlines.
 All newlines will be replaced with a sign you choose"""
 
