@@ -32,7 +32,6 @@ for row in data:
 for num in ids:
     #Create documents to store the manipulated data
     newfile = open("docs/" + str(num[0]) + "_" + num[1] + ".txt", "w")
-    #
     for row in depts:
         if row[0] == num[0]:
             for post in row:
