@@ -32,7 +32,7 @@ try:
     time.sleep(0.5)
     #Get the delimiter used in the files
     delimiter = input("What's the delimiter used in the files?\n> ")
-    
+
     time.sleep(0.2)
     print("\nSTEP 1: Overview")
     time.sleep(0.2)
