@@ -1,0 +1,927 @@
+40;"Department of Radio and Space Science";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";1;1;2.199;2.199
+40;"Department of Radio and Space Science";"PHYSICS, MATHEMATICAL";1;1;2.199;2.199
+40;"Department of Radio and Space Science";"IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY";2;2;1.408;2.816
+40;"Department of Radio and Space Science";"GEOCHEMISTRY & GEOPHYSICS";3;5;1.324;6.620
+40;"Department of Radio and Space Science";"ENGINEERING, ELECTRICAL & ELECTRONIC";3;3;1.242;3.726
+40;"Department of Radio and Space Science";"GEOGRAPHY, PHYSICAL";1;1;1.237;1.237
+40;"Department of Radio and Space Science";"REMOTE SENSING";3;3;1.203;3.609
+40;"Department of Radio and Space Science";"SPECTROSCOPY";1;1;1.197;1.197
+40;"Department of Radio and Space Science";"PHYSICS, APPLIED";1;1;1.125;1.125
+40;"Department of Radio and Space Science";"METEOROLOGY & ATMOSPHERIC SCIENCES";2;5;1.091;5.455
+40;"Department of Radio and Space Science";"ENVIRONMENTAL SCIENCES";1;1;0.981;0.981
+40;"Department of Radio and Space Science";"ASTRONOMY & ASTROPHYSICS";5;45;0.949;42.705
+40;"Department of Radio and Space Science";"OPTICS";4;4;0.918;3.672
+40;"Department of Radio and Space Science";"INSTRUMENTS & INSTRUMENTATION";1;1;0.909;0.909
+40;"Department of Radio and Space Science";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";2;2;0.909;1.818
+40;"Department of Radio and Space Science";"PHYSICS, FLUIDS & PLASMAS";3;5;0.832;4.160
+40;"Department of Radio and Space Science";"BIOLOGY";1;9;0.777;6.993
+40;"Department of Radio and Space Science";"GEOSCIENCES, MULTIDISCIPLINARY";1;9;0.777;6.993
+40;"Department of Radio and Space Science";"PHYSICS, MULTIDISCIPLINARY";1;1;0.359;0.359
+40;"Department of Radio and Space Science";"EDUCATION, SCIENTIFIC DISCIPLINES";1;1;0.359;0.359
+41;"Department of Signals and Systems";"CELL BIOLOGY";1;1;4.364;4.364
+41;"Department of Signals and Systems";"MEDICINE, RESEARCH & EXPERIMENTAL";1;1;4.364;4.364
+41;"Department of Signals and Systems";"COMPUTER SCIENCE, CYBERNETICS";1;1;2.682;2.682
+41;"Department of Signals and Systems";"ENGINEERING, INDUSTRIAL";1;4;2.473;9.892
+41;"Department of Signals and Systems";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";3;6;2.175;13.050
+41;"Department of Signals and Systems";"ENVIRONMENTAL SCIENCES";1;1;2.131;2.131
+41;"Department of Signals and Systems";"ENGINEERING, ENVIRONMENTAL";1;1;2.131;2.131
+41;"Department of Signals and Systems";"WATER RESOURCES";1;1;2.131;2.131
+41;"Department of Signals and Systems";"COMPUTER SCIENCE, THEORY & METHODS";1;1;1.774;1.774
+41;"Department of Signals and Systems";"ENGINEERING, CIVIL";1;12;1.642;19.704
+41;"Department of Signals and Systems";"ENGINEERING, AEROSPACE";1;3;1.398;4.194
+41;"Department of Signals and Systems";"TRANSPORTATION SCIENCE & TECHNOLOGY";8;32;1.335;42.720
+41;"Department of Signals and Systems";"PHYSICS, MATHEMATICAL";2;2;1.326;2.652
+41;"Department of Signals and Systems";"MATHEMATICS, APPLIED";4;5;1.307;6.535
+41;"Department of Signals and Systems";"AUDIOLOGY & SPEECH-LANGUAGE PATHOLOGY";4;7;1.277;8.939
+41;"Department of Signals and Systems";"COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE";5;6;1.275;7.650
+41;"Department of Signals and Systems";"FORESTRY";1;1;1.262;1.262
+41;"Department of Signals and Systems";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";1;1;1.237;1.237
+41;"Department of Signals and Systems";"CHEMISTRY, PHYSICAL";1;1;1.216;1.216
+41;"Department of Signals and Systems";"POLYMER SCIENCE";1;1;1.216;1.216
+41;"Department of Signals and Systems";"PHYSICS, MULTIDISCIPLINARY";1;1;1.216;1.216
+41;"Department of Signals and Systems";"REHABILITATION";2;3;1.206;3.618
+41;"Department of Signals and Systems";"ENGINEERING, ELECTRICAL & ELECTRONIC";66;328;1.205;395.240
+41;"Department of Signals and Systems";"TELECOMMUNICATIONS";25;207;1.181;244.467
+41;"Department of Signals and Systems";"OTORHINOLARYNGOLOGY";4;9;1.178;10.602
+41;"Department of Signals and Systems";"SUBSTANCE ABUSE";1;1;1.176;1.176
+41;"Department of Signals and Systems";"BIOCHEMISTRY & MOLECULAR BIOLOGY";1;1;1.176;1.176
+41;"Department of Signals and Systems";"ENGINEERING, CHEMICAL";3;3;1.167;3.501
+41;"Department of Signals and Systems";"AUTOMATION & CONTROL SYSTEMS";15;55;1.143;62.865
+41;"Department of Signals and Systems";"ENERGY & FUELS";4;4;1.138;4.552
+41;"Department of Signals and Systems";"MATERIALS SCIENCE, PAPER & WOOD";2;7;1.129;7.903
+41;"Department of Signals and Systems";"OPTICS";10;37;1.114;41.218
+41;"Department of Signals and Systems";"COMPUTER SCIENCE, INFORMATION SYSTEMS";6;22;1.110;24.420
+41;"Department of Signals and Systems";"PEDIATRICS";1;1;1.066;1.066
+41;"Department of Signals and Systems";"PHYSICS, APPLIED";5;6;1.061;6.366
+41;"Department of Signals and Systems";"COMPUTER SCIENCE, HARDWARE & ARCHITECTURE";1;2;1.043;2.086
+41;"Department of Signals and Systems";"ACOUSTICS";2;2;1.022;2.044
+41;"Department of Signals and Systems";"NEUROSCIENCES";5;6;1.003;6.018
+41;"Department of Signals and Systems";"EMERGENCY MEDICINE";1;1;0.943;0.943
+41;"Department of Signals and Systems";"PERIPHERAL VASCULAR DISEASE";1;1;0.916;0.916
+41;"Department of Signals and Systems";"RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING";4;6;0.909;5.454
+41;"Department of Signals and Systems";"ENGINEERING, BIOMEDICAL";6;12;0.907;10.884
+41;"Department of Signals and Systems";"THERMODYNAMICS";2;2;0.900;1.800
+41;"Department of Signals and Systems";"PSYCHOLOGY, APPLIED";1;1;0.865;0.865
+41;"Department of Signals and Systems";"TRANSPORTATION";1;1;0.865;0.865
+41;"Department of Signals and Systems";"COMPUTER SCIENCE, SOFTWARE ENGINEERING";1;1;0.842;0.842
+41;"Department of Signals and Systems";"CLINICAL NEUROLOGY";1;3;0.838;2.514
+41;"Department of Signals and Systems";"INSTRUMENTS & INSTRUMENTATION";7;13;0.821;10.673
+41;"Department of Signals and Systems";"ENGINEERING, MULTIDISCIPLINARY";3;7;0.774;5.418
+41;"Department of Signals and Systems";"SPECTROSCOPY";1;1;0.772;0.772
+41;"Department of Signals and Systems";"MEDICAL INFORMATICS";1;3;0.717;2.151
+41;"Department of Signals and Systems";"ONCOLOGY";1;2;0.676;1.352
+41;"Department of Signals and Systems";"ENGINEERING, PETROLEUM";1;1;0.640;0.640
+41;"Department of Signals and Systems";"MULTIDISCIPLINARY SCIENCES";1;1;0.621;0.621
+41;"Department of Signals and Systems";"ENGINEERING, MECHANICAL";7;8;0.576;4.608
+41;"Department of Signals and Systems";"MATERIALS SCIENCE, MULTIDISCIPLINARY";3;8;0.532;4.256
+41;"Department of Signals and Systems";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";1;1;0.531;0.531
+41;"Department of Signals and Systems";"MECHANICS";1;1;0.499;0.499
+41;"Department of Signals and Systems";"NANOSCIENCE & NANOTECHNOLOGY";1;1;0.499;0.499
+41;"Department of Signals and Systems";"ENGINEERING, MANUFACTURING";3;8;0.476;3.808
+41;"Department of Signals and Systems";"PHYSIOLOGY";1;1;0.462;0.462
+41;"Department of Signals and Systems";"IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY";1;1;0.243;0.243
+41;"Department of Signals and Systems";"BIOLOGY";1;1;0.060;0.060
+46;"Department of Applied Mechanics";"NEUROIMAGING";1;1;1.775;1.775
+46;"Department of Applied Mechanics";"RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING";1;1;1.775;1.775
+46;"Department of Applied Mechanics";"MATERIALS SCIENCE, COMPOSITES";3;5;1.605;8.025
+46;"Department of Applied Mechanics";"OPTICS";1;3;1.570;4.710
+46;"Department of Applied Mechanics";"ENGINEERING, ELECTRICAL & ELECTRONIC";2;4;1.543;6.172
+46;"Department of Applied Mechanics";"SOCIAL SCIENCES, INTERDISCIPLINARY";1;21;1.506;31.626
+46;"Department of Applied Mechanics";"ENGINEERING, ENVIRONMENTAL";4;4;1.494;5.976
+46;"Department of Applied Mechanics";"ERGONOMICS";2;22;1.475;32.450
+46;"Department of Applied Mechanics";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";11;24;1.467;35.208
+46;"Department of Applied Mechanics";"PHYSICS, MATHEMATICAL";3;3;1.405;4.215
+46;"Department of Applied Mechanics";"MATHEMATICS, APPLIED";5;5;1.342;6.710
+46;"Department of Applied Mechanics";"ENERGY & FUELS";9;26;1.325;34.450
+46;"Department of Applied Mechanics";"ENGINEERING, MULTIDISCIPLINARY";9;26;1.308;34.008
+46;"Department of Applied Mechanics";"CHEMISTRY, PHYSICAL";6;7;1.216;8.512
+46;"Department of Applied Mechanics";"ENGINEERING, CHEMICAL";16;41;1.185;48.585
+46;"Department of Applied Mechanics";"ASTRONOMY & ASTROPHYSICS";1;1;1.173;1.173
+46;"Department of Applied Mechanics";"PHYSICS, FLUIDS & PLASMAS";5;12;1.156;13.872
+46;"Department of Applied Mechanics";"ENVIRONMENTAL STUDIES";1;2;1.145;2.290
+46;"Department of Applied Mechanics";"MECHANICS";33;88;1.139;100.232
+46;"Department of Applied Mechanics";"CLINICAL NEUROLOGY";3;5;1.112;5.560
+46;"Department of Applied Mechanics";"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";2;2;1.104;2.208
+46;"Department of Applied Mechanics";"AUTOMATION & CONTROL SYSTEMS";1;1;1.099;1.099
+46;"Department of Applied Mechanics";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";2;40;1.084;43.360
+46;"Department of Applied Mechanics";"NEUROSCIENCES";6;9;1.079;9.711
+46;"Department of Applied Mechanics";"ELECTROCHEMISTRY";2;2;1.072;2.144
+46;"Department of Applied Mechanics";"TRANSPORTATION";4;47;1.071;50.337
+46;"Department of Applied Mechanics";"THERMODYNAMICS";11;36;1.066;38.376
+46;"Department of Applied Mechanics";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";1;1;1.059;1.059
+46;"Department of Applied Mechanics";"CRITICAL CARE MEDICINE";1;3;1.047;3.141
+46;"Department of Applied Mechanics";"ENGINEERING, AEROSPACE";4;7;1.035;7.245
+46;"Department of Applied Mechanics";"MATERIALS SCIENCE, COATINGS & FILMS";1;1;0.988;0.988
+46;"Department of Applied Mechanics";"ENGINEERING, INDUSTRIAL";2;4;0.966;3.864
+46;"Department of Applied Mechanics";"PSYCHOLOGY, APPLIED";1;5;0.941;4.705
+46;"Department of Applied Mechanics";"SURGERY";1;1;0.919;0.919
+46;"Department of Applied Mechanics";"PERIPHERAL VASCULAR DISEASE";1;1;0.919;0.919
+46;"Department of Applied Mechanics";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";2;4;0.917;3.668
+46;"Department of Applied Mechanics";"ORTHOPEDICS";1;2;0.872;1.744
+46;"Department of Applied Mechanics";"SPORT SCIENCES";1;2;0.872;1.744
+46;"Department of Applied Mechanics";"ACOUSTICS";4;11;0.853;9.383
+46;"Department of Applied Mechanics";"CHEMISTRY, APPLIED";2;3;0.848;2.544
+46;"Department of Applied Mechanics";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";1;1;0.844;0.844
+46;"Department of Applied Mechanics";"ENGINEERING, MECHANICAL";35;137;0.815;111.655
+46;"Department of Applied Mechanics";"PHYSICS, CONDENSED MATTER";3;3;0.731;2.193
+46;"Department of Applied Mechanics";"ENGINEERING, CIVIL";8;28;0.703;19.684
+46;"Department of Applied Mechanics";"MATERIALS SCIENCE, MULTIDISCIPLINARY";15;41;0.681;27.921
+46;"Department of Applied Mechanics";"ENGINEERING, GEOLOGICAL";1;3;0.658;1.974
+46;"Department of Applied Mechanics";"TRANSPORTATION SCIENCE & TECHNOLOGY";10;32;0.637;20.384
+46;"Department of Applied Mechanics";"ENGINEERING, MANUFACTURING";4;20;0.620;12.400
+46;"Department of Applied Mechanics";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";6;9;0.585;5.265
+46;"Department of Applied Mechanics";"STATISTICS & PROBABILITY";1;2;0.576;1.152
+46;"Department of Applied Mechanics";"PHYSICS, APPLIED";4;6;0.541;3.246
+46;"Department of Applied Mechanics";"CONSTRUCTION & BUILDING TECHNOLOGY";1;1;0.527;0.527
+46;"Department of Applied Mechanics";"CRIMINOLOGY & PENOLOGY";1;1;0.506;0.506
+46;"Department of Applied Mechanics";"LAW";1;1;0.506;0.506
+46;"Department of Applied Mechanics";"PHYSICS, MULTIDISCIPLINARY";3;7;0.448;3.136
+46;"Department of Applied Mechanics";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";1;1;0.438;0.438
+46;"Department of Applied Mechanics";"PSYCHOLOGY, MULTIDISCIPLINARY";1;3;0.416;1.248
+46;"Department of Applied Mechanics";"METALLURGY & METALLURGICAL ENGINEERING";3;5;0.390;1.950
+46;"Department of Applied Mechanics";"ENVIRONMENTAL SCIENCES";1;1;0.383;0.383
+46;"Department of Applied Mechanics";"ENGINEERING, BIOMEDICAL";3;4;0.318;1.272
+46;"Department of Applied Mechanics";"IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY";1;2;0.111;0.222
+52;"Department of Product and Production Development";"TRANSPORTATION SCIENCE & TECHNOLOGY";3;4;1.699;6.796
+52;"Department of Product and Production Development";"DENTISTRY/ORAL SURGERY & MEDICINE";1;3;1.185;3.555
+52;"Department of Product and Production Development";"ENVIRONMENTAL STUDIES";1;1;1.114;1.114
+52;"Department of Product and Production Development";"ENVIRONMENTAL SCIENCES";2;2;1.102;2.204
+52;"Department of Product and Production Development";"ENGINEERING, ENVIRONMENTAL";2;2;1.102;2.204
+52;"Department of Product and Production Development";"ECONOMICS";1;1;1.019;1.019
+52;"Department of Product and Production Development";"PSYCHOLOGY, APPLIED";2;2;1.002;2.004
+52;"Department of Product and Production Development";"TRANSPORTATION";3;3;1.000;3.000
+52;"Department of Product and Production Development";"MINING & MINERAL PROCESSING";1;9;0.934;8.406
+52;"Department of Product and Production Development";"MINERALOGY";1;9;0.934;8.406
+52;"Department of Product and Production Development";"ENGINEERING, INDUSTRIAL";9;16;0.930;14.880
+52;"Department of Product and Production Development";"GEOGRAPHY";1;1;0.903;0.903
+52;"Department of Product and Production Development";"ENGINEERING, MULTIDISCIPLINARY";5;9;0.891;8.019
+52;"Department of Product and Production Development";"ENGINEERING, CHEMICAL";2;10;0.882;8.820
+52;"Department of Product and Production Development";"BUSINESS";1;1;0.860;0.860
+52;"Department of Product and Production Development";"MANAGEMENT";1;1;0.860;0.860
+52;"Department of Product and Production Development";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";7;13;0.790;10.270
+52;"Department of Product and Production Development";"EDUCATION & EDUCATIONAL RESEARCH";1;1;0.759;0.759
+52;"Department of Product and Production Development";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";1;1;0.759;0.759
+52;"Department of Product and Production Development";"ENGINEERING, MECHANICAL";2;3;0.703;2.109
+52;"Department of Product and Production Development";"ART";1;2;0.700;1.400
+52;"Department of Product and Production Development";"SOCIAL SCIENCES, INTERDISCIPLINARY";1;2;0.700;1.400
+52;"Department of Product and Production Development";"ENGINEERING, MANUFACTURING";14;28;0.673;18.844
+52;"Department of Product and Production Development";"MATERIALS SCIENCE, PAPER & WOOD";1;2;0.643;1.286
+52;"Department of Product and Production Development";"COMPUTER SCIENCE, SOFTWARE ENGINEERING";2;2;0.625;1.250
+52;"Department of Product and Production Development";"ERGONOMICS";3;8;0.615;4.920
+52;"Department of Product and Production Development";"AUTOMATION & CONTROL SYSTEMS";1;1;0.420;0.420
+52;"Department of Product and Production Development";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";5;13;0.347;4.511
+52;"Department of Product and Production Development";"SPORT SCIENCES";1;1;0.338;0.338
+52;"Department of Product and Production Development";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";1;7;0.121;0.847
+52;"Department of Product and Production Development";"MULTIDISCIPLINARY SCIENCES";1;1;0.072;0.072
+55;"Department of Applied Physics";"MEDICINE, RESEARCH & EXPERIMENTAL";2;2;4.077;8.154
+55;"Department of Applied Physics";"CELL BIOLOGY";2;2;4.064;8.128
+55;"Department of Applied Physics";"ENGINEERING, CHEMICAL";4;6;3.540;21.240
+55;"Department of Applied Physics";"CHEMISTRY, MULTIDISCIPLINARY";23;111;2.953;327.783
+55;"Department of Applied Physics";"PHYSICS, APPLIED";29;109;2.511;273.699
+55;"Department of Applied Physics";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";1;1;2.501;2.501
+55;"Department of Applied Physics";"DERMATOLOGY";1;1;2.451;2.451
+55;"Department of Applied Physics";"ENERGY & FUELS";8;35;2.382;83.370
+55;"Department of Applied Physics";"NANOSCIENCE & NANOTECHNOLOGY";26;146;2.311;337.406
+55;"Department of Applied Physics";"MATERIALS SCIENCE, MULTIDISCIPLINARY";55;253;2.058;520.674
+55;"Department of Applied Physics";"PHYSICS, CONDENSED MATTER";22;161;1.948;313.628
+55;"Department of Applied Physics";"ENGINEERING, ENVIRONMENTAL";2;3;1.865;5.595
+55;"Department of Applied Physics";"CHEMISTRY, PHYSICAL";50;301;1.810;544.810
+55;"Department of Applied Physics";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";1;3;1.795;5.385
+55;"Department of Applied Physics";"ENVIRONMENTAL SCIENCES";7;12;1.684;20.208
+55;"Department of Applied Physics";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";1;2;1.590;3.180
+55;"Department of Applied Physics";"OPTICS";10;32;1.549;49.568
+55;"Department of Applied Physics";"MULTIDISCIPLINARY SCIENCES";6;19;1.544;29.336
+55;"Department of Applied Physics";"PHYSICS, MULTIDISCIPLINARY";18;79;1.539;121.581
+55;"Department of Applied Physics";"MATHEMATICS, APPLIED";1;2;1.517;3.034
+55;"Department of Applied Physics";"PHYSICS, MATHEMATICAL";4;8;1.476;11.808
+55;"Department of Applied Physics";"CHEMISTRY, ANALYTICAL";11;25;1.469;36.725
+55;"Department of Applied Physics";"BIOCHEMISTRY & MOLECULAR BIOLOGY";13;14;1.401;19.614
+55;"Department of Applied Physics";"MYCOLOGY";1;1;1.400;1.400
+55;"Department of Applied Physics";"ELECTROCHEMISTRY";13;47;1.336;62.792
+55;"Department of Applied Physics";"TOXICOLOGY";2;2;1.249;2.498
+55;"Department of Applied Physics";"ENGINEERING, BIOMEDICAL";3;5;1.236;6.180
+55;"Department of Applied Physics";"BEHAVIORAL SCIENCES";1;1;1.232;1.232
+55;"Department of Applied Physics";"VETERINARY SCIENCES";1;1;1.232;1.232
+55;"Department of Applied Physics";"MICROBIOLOGY";2;2;1.208;2.416
+55;"Department of Applied Physics";"POLYMER SCIENCE";5;11;1.206;13.266
+55;"Department of Applied Physics";"BIOCHEMICAL RESEARCH METHODS";6;6;1.203;7.218
+55;"Department of Applied Physics";"PHARMACOLOGY & PHARMACY";2;3;1.199;3.597
+55;"Department of Applied Physics";"ACOUSTICS";1;1;1.193;1.193
+55;"Department of Applied Physics";"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";1;2;1.130;2.260
+55;"Department of Applied Physics";"MICROSCOPY";4;21;1.115;23.415
+55;"Department of Applied Physics";"MATERIALS SCIENCE, BIOMATERIALS";5;13;1.108;14.404
+55;"Department of Applied Physics";"MATERIALS SCIENCE, CERAMICS";2;2;1.093;2.186
+55;"Department of Applied Physics";"METALLURGY & METALLURGICAL ENGINEERING";16;52;1.053;54.756
+55;"Department of Applied Physics";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";13;72;1.043;75.096
+55;"Department of Applied Physics";"MINING & MINERAL PROCESSING";1;5;1.016;5.080
+55;"Department of Applied Physics";"CHEMISTRY, MEDICINAL";1;1;1.007;1.007
+55;"Department of Applied Physics";"FOOD SCIENCE & TECHNOLOGY";2;4;0.991;3.964
+55;"Department of Applied Physics";"PHYSICS, FLUIDS & PLASMAS";9;57;0.986;56.202
+55;"Department of Applied Physics";"BIOPHYSICS";13;27;0.900;24.300
+55;"Department of Applied Physics";"MATERIALS SCIENCE, COATINGS & FILMS";4;11;0.898;9.878
+55;"Department of Applied Physics";"PHYSICS, NUCLEAR";7;36;0.868;31.248
+55;"Department of Applied Physics";"NUCLEAR SCIENCE & TECHNOLOGY";18;76;0.829;63.004
+55;"Department of Applied Physics";"RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING";7;11;0.818;8.998
+55;"Department of Applied Physics";"ENGINEERING, MECHANICAL";1;1;0.801;0.801
+55;"Department of Applied Physics";"CRYSTALLOGRAPHY";6;6;0.795;4.770
+55;"Department of Applied Physics";"CHEMISTRY, APPLIED";2;3;0.794;2.382
+55;"Department of Applied Physics";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";1;1;0.762;0.762
+55;"Department of Applied Physics";"VIROLOGY";1;1;0.751;0.751
+55;"Department of Applied Physics";"SPECTROSCOPY";6;18;0.747;13.446
+55;"Department of Applied Physics";"MECHANICS";3;3;0.724;2.172
+55;"Department of Applied Physics";"COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE";2;3;0.711;2.133
+55;"Department of Applied Physics";"PHYSICS, PARTICLES & FIELDS";5;19;0.709;13.471
+55;"Department of Applied Physics";"NEUROSCIENCES";1;2;0.679;1.358
+55;"Department of Applied Physics";"ASTRONOMY & ASTROPHYSICS";5;17;0.669;11.373
+55;"Department of Applied Physics";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";1;1;0.668;0.668
+55;"Department of Applied Physics";"CHEMISTRY, INORGANIC & NUCLEAR";4;6;0.655;3.930
+55;"Department of Applied Physics";"BIOLOGY";4;8;0.639;5.112
+55;"Department of Applied Physics";"GEOSCIENCES, MULTIDISCIPLINARY";2;10;0.504;5.040
+55;"Department of Applied Physics";"ENGINEERING, ELECTRICAL & ELECTRONIC";5;5;0.500;2.500
+55;"Department of Applied Physics";"THERMODYNAMICS";1;1;0.486;0.486
+55;"Department of Applied Physics";"INSTRUMENTS & INSTRUMENTATION";10;23;0.455;10.465
+55;"Department of Applied Physics";"ENGINEERING, MULTIDISCIPLINARY";2;2;0.368;0.736
+55;"Department of Applied Physics";"METEOROLOGY & ATMOSPHERIC SCIENCES";1;9;0.362;3.258
+55;"Department of Applied Physics";"ENGINEERING, MANUFACTURING";1;1;0.338;0.338
+55;"Department of Applied Physics";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";1;1;0.242;0.242
+55;"Department of Applied Physics";"ENGINEERING, AEROSPACE";1;1;0.041;0.041
+182;"Department of Microtechnology and Nanoscience";"ENERGY & FUELS";2;2;3.722;7.444
+182;"Department of Microtechnology and Nanoscience";"CHEMISTRY, MULTIDISCIPLINARY";15;35;2.929;102.515
+182;"Department of Microtechnology and Nanoscience";"CHEMISTRY, PHYSICAL";19;46;2.804;128.984
+182;"Department of Microtechnology and Nanoscience";"MULTIDISCIPLINARY SCIENCES";5;11;2.230;24.530
+182;"Department of Microtechnology and Nanoscience";"PHYSICS, MULTIDISCIPLINARY";9;55;2.112;116.160
+182;"Department of Microtechnology and Nanoscience";"NANOSCIENCE & NANOTECHNOLOGY";29;73;2.026;147.898
+182;"Department of Microtechnology and Nanoscience";"CHEMISTRY, ANALYTICAL";3;3;1.734;5.202
+182;"Department of Microtechnology and Nanoscience";"MATERIALS SCIENCE, MULTIDISCIPLINARY";50;116;1.656;192.096
+182;"Department of Microtechnology and Nanoscience";"CHEMISTRY, ORGANIC";1;1;1.614;1.614
+182;"Department of Microtechnology and Nanoscience";"CHEMISTRY, APPLIED";1;1;1.614;1.614
+182;"Department of Microtechnology and Nanoscience";"SPECTROSCOPY";1;1;1.611;1.611
+182;"Department of Microtechnology and Nanoscience";"MATERIALS SCIENCE, COMPOSITES";1;1;1.586;1.586
+182;"Department of Microtechnology and Nanoscience";"OPTICS";19;131;1.424;186.544
+182;"Department of Microtechnology and Nanoscience";"NEUROSCIENCES";2;2;1.401;2.802
+182;"Department of Microtechnology and Nanoscience";"PHYSICS, CONDENSED MATTER";29;154;1.353;208.362
+182;"Department of Microtechnology and Nanoscience";"ELECTROCHEMISTRY";2;2;1.341;2.682
+182;"Department of Microtechnology and Nanoscience";"POLYMER SCIENCE";3;3;1.320;3.960
+182;"Department of Microtechnology and Nanoscience";"ASTRONOMY & ASTROPHYSICS";2;3;1.314;3.942
+182;"Department of Microtechnology and Nanoscience";"MEDICINE, RESEARCH & EXPERIMENTAL";1;1;1.268;1.268
+182;"Department of Microtechnology and Nanoscience";"COMPUTER SCIENCE, INFORMATION SYSTEMS";2;6;1.256;7.536
+182;"Department of Microtechnology and Nanoscience";"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";1;1;1.222;1.222
+182;"Department of Microtechnology and Nanoscience";"TELECOMMUNICATIONS";11;48;1.212;58.176
+182;"Department of Microtechnology and Nanoscience";"COMPUTER SCIENCE, HARDWARE & ARCHITECTURE";1;4;1.172;4.688
+182;"Department of Microtechnology and Nanoscience";"PHYSICS, APPLIED";62;270;1.157;312.390
+182;"Department of Microtechnology and Nanoscience";"ENGINEERING, MECHANICAL";1;1;1.156;1.156
+182;"Department of Microtechnology and Nanoscience";"PHYSICS, FLUIDS & PLASMAS";2;5;1.133;5.665
+182;"Department of Microtechnology and Nanoscience";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";5;19;1.018;19.342
+182;"Department of Microtechnology and Nanoscience";"BIOPHYSICS";3;4;1.016;4.064
+182;"Department of Microtechnology and Nanoscience";"PHYSICS, MATHEMATICAL";3;8;0.995;7.960
+182;"Department of Microtechnology and Nanoscience";"ENGINEERING, ELECTRICAL & ELECTRONIC";53;235;0.983;231.005
+182;"Department of Microtechnology and Nanoscience";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";2;4;0.961;3.844
+182;"Department of Microtechnology and Nanoscience";"BIOCHEMICAL RESEARCH METHODS";2;3;0.926;2.778
+182;"Department of Microtechnology and Nanoscience";"BIOLOGY";1;3;0.925;2.775
+182;"Department of Microtechnology and Nanoscience";"BIOCHEMISTRY & MOLECULAR BIOLOGY";1;1;0.911;0.911
+182;"Department of Microtechnology and Nanoscience";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";3;3;0.865;2.595
+182;"Department of Microtechnology and Nanoscience";"ACOUSTICS";1;3;0.851;2.553
+182;"Department of Microtechnology and Nanoscience";"MATERIALS SCIENCE, COATINGS & FILMS";3;7;0.830;5.810
+182;"Department of Microtechnology and Nanoscience";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";2;7;0.669;4.683
+182;"Department of Microtechnology and Nanoscience";"INSTRUMENTS & INSTRUMENTATION";11;24;0.646;15.504
+182;"Department of Microtechnology and Nanoscience";"CELL BIOLOGY";1;1;0.641;0.641
+182;"Department of Microtechnology and Nanoscience";"CELL & TISSUE ENGINEERING";1;1;0.641;0.641
+182;"Department of Microtechnology and Nanoscience";"ENGINEERING, MULTIDISCIPLINARY";1;1;0.631;0.631
+182;"Department of Microtechnology and Nanoscience";"CHEMISTRY, INORGANIC & NUCLEAR";1;1;0.629;0.629
+182;"Department of Microtechnology and Nanoscience";"MATERIALS SCIENCE, BIOMATERIALS";3;3;0.623;1.869
+182;"Department of Microtechnology and Nanoscience";"METALLURGY & METALLURGICAL ENGINEERING";4;6;0.620;3.720
+182;"Department of Microtechnology and Nanoscience";"MICROSCOPY";2;2;0.607;1.214
+182;"Department of Microtechnology and Nanoscience";"MECHANICS";2;7;0.536;3.752
+182;"Department of Microtechnology and Nanoscience";"NUCLEAR SCIENCE & TECHNOLOGY";1;1;0.506;0.506
+182;"Department of Microtechnology and Nanoscience";"PHYSICS, NUCLEAR";1;1;0.506;0.506
+182;"Department of Microtechnology and Nanoscience";"COMPUTER SCIENCE, THEORY & METHODS";1;2;0.402;0.804
+182;"Department of Microtechnology and Nanoscience";"CRYSTALLOGRAPHY";4;10;0.387;3.870
+182;"Department of Microtechnology and Nanoscience";"ENGINEERING, MANUFACTURING";3;6;0.361;2.166
+182;"Department of Microtechnology and Nanoscience";"ENGINEERING, BIOMEDICAL";1;1;0.318;0.318
+182;"Department of Microtechnology and Nanoscience";"OCEANOGRAPHY";1;2;0.224;0.448
+182;"Department of Microtechnology and Nanoscience";"ENGINEERING, OCEAN";1;2;0.224;0.448
+366;"Department of Computer Science and Engineering (Chalmers)";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";2;3;1.565;4.695
+366;"Department of Computer Science and Engineering (Chalmers)";"BIOCHEMICAL RESEARCH METHODS";2;3;1.565;4.695
+366;"Department of Computer Science and Engineering (Chalmers)";"CHEMISTRY, MULTIDISCIPLINARY";1;1;1.359;1.359
+366;"Department of Computer Science and Engineering (Chalmers)";"CHEMISTRY, MEDICINAL";1;1;1.359;1.359
+366;"Department of Computer Science and Engineering (Chalmers)";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";3;4;1.221;4.884
+366;"Department of Computer Science and Engineering (Chalmers)";"ONCOLOGY";1;1;1.219;1.219
+366;"Department of Computer Science and Engineering (Chalmers)";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";2;3;1.178;3.534
+366;"Department of Computer Science and Engineering (Chalmers)";"BIOPHYSICS";1;2;1.088;2.176
+366;"Department of Computer Science and Engineering (Chalmers)";"MULTIDISCIPLINARY SCIENCES";2;2;1.035;2.070
+366;"Department of Computer Science and Engineering (Chalmers)";"ERGONOMICS";1;1;1.022;1.022
+366;"Department of Computer Science and Engineering (Chalmers)";"COMPUTER SCIENCE, CYBERNETICS";1;1;1.022;1.022
+366;"Department of Computer Science and Engineering (Chalmers)";"AUTOMATION & CONTROL SYSTEMS";1;2;0.993;1.986
+366;"Department of Computer Science and Engineering (Chalmers)";"BIOCHEMISTRY & MOLECULAR BIOLOGY";4;5;0.934;4.670
+366;"Department of Computer Science and Engineering (Chalmers)";"ENGINEERING, ELECTRICAL & ELECTRONIC";15;23;0.920;21.160
+366;"Department of Computer Science and Engineering (Chalmers)";"TRANSPORTATION SCIENCE & TECHNOLOGY";1;1;0.845;0.845
+366;"Department of Computer Science and Engineering (Chalmers)";"TELECOMMUNICATIONS";6;8;0.837;6.696
+366;"Department of Computer Science and Engineering (Chalmers)";"COMPUTER SCIENCE, SOFTWARE ENGINEERING";27;84;0.825;69.300
+366;"Department of Computer Science and Engineering (Chalmers)";"MATHEMATICS";3;4;0.811;3.244
+366;"Department of Computer Science and Engineering (Chalmers)";"COMPUTER SCIENCE, THEORY & METHODS";13;33;0.802;26.466
+366;"Department of Computer Science and Engineering (Chalmers)";"REPRODUCTIVE BIOLOGY";1;1;0.791;0.791
+366;"Department of Computer Science and Engineering (Chalmers)";"DEVELOPMENTAL BIOLOGY";1;1;0.791;0.791
+366;"Department of Computer Science and Engineering (Chalmers)";"COMPUTER SCIENCE, HARDWARE & ARCHITECTURE";13;22;0.780;17.160
+366;"Department of Computer Science and Engineering (Chalmers)";"COMPUTER SCIENCE, INFORMATION SYSTEMS";10;15;0.622;9.330
+366;"Department of Computer Science and Engineering (Chalmers)";"LOGIC";1;2;0.619;1.238
+366;"Department of Computer Science and Engineering (Chalmers)";"MATHEMATICS, APPLIED";4;7;0.565;3.955
+366;"Department of Computer Science and Engineering (Chalmers)";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";2;2;0.521;1.042
+366;"Department of Computer Science and Engineering (Chalmers)";"COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE";3;5;0.495;2.475
+366;"Department of Computer Science and Engineering (Chalmers)";"CARDIAC & CARDIOVASCULAR SYSTEMS";1;1;0.436;0.436
+366;"Department of Computer Science and Engineering (Chalmers)";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";1;2;0.121;0.242
+366;"Department of Computer Science and Engineering (Chalmers)";"EDUCATION, SCIENTIFIC DISCIPLINES";1;1;0.093;0.093
+367;"Department of Architecture";"ENERGY & FUELS";1;1;1.923;1.923
+367;"Department of Architecture";"ENGINEERING, ENVIRONMENTAL";1;1;1.444;1.444
+367;"Department of Architecture";"URBAN STUDIES";2;2;1.071;2.142
+367;"Department of Architecture";"ENGINEERING, CHEMICAL";2;3;0.916;2.748
+367;"Department of Architecture";"GEOGRAPHY";1;1;0.862;0.862
+367;"Department of Architecture";"CONSTRUCTION & BUILDING TECHNOLOGY";3;3;0.859;2.577
+367;"Department of Architecture";"EDUCATION & EDUCATIONAL RESEARCH";1;1;0.759;0.759
+367;"Department of Architecture";"ENVIRONMENTAL SCIENCES";2;4;0.623;2.492
+367;"Department of Architecture";"ENGINEERING, CIVIL";1;1;0.475;0.475
+367;"Department of Architecture";"ARCHITECTURE";1;1;0.475;0.475
+367;"Department of Architecture";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";2;4;0.452;1.808
+367;"Department of Architecture";"ENVIRONMENTAL STUDIES";1;3;0.349;1.047
+367;"Department of Architecture";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";2;5;0.336;1.680
+367;"Department of Architecture";"WATER RESOURCES";2;3;0.330;0.990
+367;"Department of Architecture";"HEALTH CARE SCIENCES & SERVICES";1;1;0.324;0.324
+367;"Department of Architecture";"HEALTH POLICY & SERVICES";1;1;0.324;0.324
+368;"Department of Energy and Environment";"CHEMISTRY, MULTIDISCIPLINARY";1;1;5.738;5.738
+368;"Department of Energy and Environment";"AGRICULTURE, MULTIDISCIPLINARY";1;1;3.556;3.556
+368;"Department of Energy and Environment";"ANTHROPOLOGY";1;1;2.886;2.886
+368;"Department of Energy and Environment";"INSTRUMENTS & INSTRUMENTATION";2;3;2.814;8.442
+368;"Department of Energy and Environment";"AUTOMATION & CONTROL SYSTEMS";2;3;2.728;8.184
+368;"Department of Energy and Environment";"BIODIVERSITY CONSERVATION";3;5;2.368;11.840
+368;"Department of Energy and Environment";"PHYSICS, MULTIDISCIPLINARY";3;6;2.341;14.046
+368;"Department of Energy and Environment";"PHYSICS, NUCLEAR";1;3;2.050;6.150
+368;"Department of Energy and Environment";"ENGINEERING, ELECTRICAL & ELECTRONIC";14;27;1.991;53.757
+368;"Department of Energy and Environment";"AGRICULTURE, DAIRY & ANIMAL SCIENCE";1;3;1.969;5.907
+368;"Department of Energy and Environment";"VETERINARY SCIENCES";1;3;1.969;5.907
+368;"Department of Energy and Environment";"TELECOMMUNICATIONS";1;1;1.730;1.730
+368;"Department of Energy and Environment";"ENGINEERING, MULTIDISCIPLINARY";2;9;1.642;14.778
+368;"Department of Energy and Environment";"THERMODYNAMICS";9;58;1.610;93.380
+368;"Department of Energy and Environment";"ECOLOGY";9;14;1.598;22.372
+368;"Department of Energy and Environment";"MATERIALS SCIENCE, MULTIDISCIPLINARY";2;2;1.590;3.180
+368;"Department of Energy and Environment";"INFORMATION SCIENCE & LIBRARY SCIENCE";1;1;1.528;1.528
+368;"Department of Energy and Environment";"MECHANICS";5;21;1.482;31.122
+368;"Department of Energy and Environment";"CONSTRUCTION & BUILDING TECHNOLOGY";3;9;1.468;13.212
+368;"Department of Energy and Environment";"ENGINEERING, CIVIL";3;8;1.399;11.192
+368;"Department of Energy and Environment";"ENGINEERING, MECHANICAL";8;35;1.399;48.965
+368;"Department of Energy and Environment";"METEOROLOGY & ATMOSPHERIC SCIENCES";4;12;1.390;16.680
+368;"Department of Energy and Environment";"TRANSPORTATION SCIENCE & TECHNOLOGY";3;4;1.347;5.388
+368;"Department of Energy and Environment";"CHEMISTRY, APPLIED";1;5;1.323;6.615
+368;"Department of Energy and Environment";"AGRICULTURAL ENGINEERING";2;16;1.262;20.192
+368;"Department of Energy and Environment";"ENVIRONMENTAL SCIENCES";25;94;1.258;118.252
+368;"Department of Energy and Environment";"ZOOLOGY";1;1;1.239;1.239
+368;"Department of Energy and Environment";"BEHAVIORAL SCIENCES";1;1;1.239;1.239
+368;"Department of Energy and Environment";"ENERGY & FUELS";36;238;1.237;294.406
+368;"Department of Energy and Environment";"ECONOMICS";4;7;1.227;8.589
+368;"Department of Energy and Environment";"POLYMER SCIENCE";1;1;1.216;1.216
+368;"Department of Energy and Environment";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";4;24;1.197;28.728
+368;"Department of Energy and Environment";"PLANNING & DEVELOPMENT";6;9;1.196;10.764
+368;"Department of Energy and Environment";"ENGINEERING, CHEMICAL";17;123;1.190;146.370
+368;"Department of Energy and Environment";"ENGINEERING, ENVIRONMENTAL";11;55;1.183;65.065
+368;"Department of Energy and Environment";"MULTIDISCIPLINARY SCIENCES";3;4;1.149;4.596
+368;"Department of Energy and Environment";"TRANSPORTATION";1;2;1.144;2.288
+368;"Department of Energy and Environment";"MANAGEMENT";4;8;1.133;9.064
+368;"Department of Energy and Environment";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";1;1;1.125;1.125
+368;"Department of Energy and Environment";"ENVIRONMENTAL STUDIES";12;39;1.079;42.081
+368;"Department of Energy and Environment";"ELECTROCHEMISTRY";3;5;1.067;5.335
+368;"Department of Energy and Environment";"BUSINESS";1;1;1.051;1.051
+368;"Department of Energy and Environment";"CHEMISTRY, PHYSICAL";6;9;1.017;9.153
+368;"Department of Energy and Environment";"GEOSCIENCES, MULTIDISCIPLINARY";1;1;0.947;0.947
+368;"Department of Energy and Environment";"NUCLEAR SCIENCE & TECHNOLOGY";1;7;0.933;6.531
+368;"Department of Energy and Environment";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";13;54;0.931;50.274
+368;"Department of Energy and Environment";"PHYSICS, APPLIED";1;1;0.925;0.925
+368;"Department of Energy and Environment";"OPTICS";1;1;0.925;0.925
+368;"Department of Energy and Environment";"BIOCHEMICAL RESEARCH METHODS";2;2;0.918;1.836
+368;"Department of Energy and Environment";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";2;3;0.853;2.559
+368;"Department of Energy and Environment";"PHYSICS, MATHEMATICAL";1;2;0.844;1.688
+368;"Department of Energy and Environment";"EDUCATION & EDUCATIONAL RESEARCH";1;3;0.759;2.277
+368;"Department of Energy and Environment";"CHEMISTRY, ANALYTICAL";3;3;0.744;2.232
+368;"Department of Energy and Environment";"PUBLIC ADMINISTRATION";1;3;0.743;2.229
+368;"Department of Energy and Environment";"GEOCHEMISTRY & GEOPHYSICS";1;1;0.742;0.742
+368;"Department of Energy and Environment";"REMOTE SENSING";1;1;0.742;0.742
+368;"Department of Energy and Environment";"SPECTROSCOPY";1;1;0.712;0.712
+368;"Department of Energy and Environment";"INFECTIOUS DISEASES";1;1;0.687;0.687
+368;"Department of Energy and Environment";"ENGINEERING, PETROLEUM";1;4;0.640;2.560
+368;"Department of Energy and Environment";"METALLURGY & METALLURGICAL ENGINEERING";1;1;0.595;0.595
+368;"Department of Energy and Environment";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";3;4;0.593;2.372
+368;"Department of Energy and Environment";"WATER RESOURCES";1;1;0.581;0.581
+368;"Department of Energy and Environment";"MATERIALS SCIENCE, PAPER & WOOD";5;12;0.549;6.588
+368;"Department of Energy and Environment";"COMPUTER SCIENCE, HARDWARE & ARCHITECTURE";1;1;0.548;0.548
+368;"Department of Energy and Environment";"FORESTRY";2;2;0.486;0.972
+368;"Department of Energy and Environment";"MATHEMATICS, APPLIED";2;3;0.483;1.449
+368;"Department of Energy and Environment";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";1;1;0.421;0.421
+369;"Department of Chemical and Biological Engineering";"PHYSICS, CONDENSED MATTER";16;55;2.621;144.155
+369;"Department of Chemical and Biological Engineering";"PHYSICS, APPLIED";33;79;2.453;193.787
+369;"Department of Chemical and Biological Engineering";"PARASITOLOGY";1;1;2.390;2.390
+369;"Department of Chemical and Biological Engineering";"REPRODUCTIVE BIOLOGY";1;1;2.110;2.110
+369;"Department of Chemical and Biological Engineering";"OBSTETRICS & GYNECOLOGY";1;1;2.110;2.110
+369;"Department of Chemical and Biological Engineering";"MECHANICS";8;10;1.987;19.870
+369;"Department of Chemical and Biological Engineering";"NANOSCIENCE & NANOTECHNOLOGY";26;84;1.984;166.656
+369;"Department of Chemical and Biological Engineering";"HEMATOLOGY";2;3;1.951;5.853
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, TEXTILES";3;14;1.951;27.314
+369;"Department of Chemical and Biological Engineering";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";1;1;1.922;1.922
+369;"Department of Chemical and Biological Engineering";"GASTROENTEROLOGY & HEPATOLOGY";2;2;1.881;3.762
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, MULTIDISCIPLINARY";61;231;1.832;423.192
+369;"Department of Chemical and Biological Engineering";"OPTICS";11;15;1.793;26.895
+369;"Department of Chemical and Biological Engineering";"ENERGY & FUELS";26;118;1.767;208.506
+369;"Department of Chemical and Biological Engineering";"AGRONOMY";1;1;1.736;1.736
+369;"Department of Chemical and Biological Engineering";"OPHTHALMOLOGY";1;1;1.670;1.670
+369;"Department of Chemical and Biological Engineering";"CHEMISTRY, MULTIDISCIPLINARY";43;186;1.654;307.644
+369;"Department of Chemical and Biological Engineering";"AGRICULTURAL ENGINEERING";3;20;1.608;32.160
+369;"Department of Chemical and Biological Engineering";"VIROLOGY";2;2;1.595;3.190
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, COMPOSITES";1;1;1.586;1.586
+369;"Department of Chemical and Biological Engineering";"CHEMISTRY, PHYSICAL";64;352;1.545;543.840
+369;"Department of Chemical and Biological Engineering";"MULTIDISCIPLINARY SCIENCES";6;52;1.543;80.236
+369;"Department of Chemical and Biological Engineering";"FISHERIES";1;1;1.542;1.542
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, ENVIRONMENTAL";15;63;1.531;96.453
+369;"Department of Chemical and Biological Engineering";"AUTOMATION & CONTROL SYSTEMS";1;1;1.518;1.518
+369;"Department of Chemical and Biological Engineering";"COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE";1;1;1.518;1.518
+369;"Department of Chemical and Biological Engineering";"STATISTICS & PROBABILITY";1;1;1.518;1.518
+369;"Department of Chemical and Biological Engineering";"FOOD SCIENCE & TECHNOLOGY";16;36;1.479;53.244
+369;"Department of Chemical and Biological Engineering";"AGRICULTURE, MULTIDISCIPLINARY";2;9;1.477;13.293
+369;"Department of Chemical and Biological Engineering";"BIOLOGY";5;5;1.453;7.265
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, MULTIDISCIPLINARY";3;6;1.418;8.508
+369;"Department of Chemical and Biological Engineering";"NUTRITION & DIETETICS";10;18;1.412;25.416
+369;"Department of Chemical and Biological Engineering";"METALLURGY & METALLURGICAL ENGINEERING";7;27;1.408;38.016
+369;"Department of Chemical and Biological Engineering";"MARINE & FRESHWATER BIOLOGY";2;2;1.398;2.796
+369;"Department of Chemical and Biological Engineering";"CHEMISTRY, ORGANIC";15;49;1.384;67.816
+369;"Department of Chemical and Biological Engineering";"POLYMER SCIENCE";25;103;1.383;142.449
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, CHEMICAL";39;157;1.330;208.810
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, MECHANICAL";6;7;1.314;9.198
+369;"Department of Chemical and Biological Engineering";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";46;181;1.308;236.748
+369;"Department of Chemical and Biological Engineering";"ENVIRONMENTAL SCIENCES";23;46;1.306;60.076
+369;"Department of Chemical and Biological Engineering";"CHEMISTRY, ANALYTICAL";18;54;1.305;70.470
+369;"Department of Chemical and Biological Engineering";"PLANT SCIENCES";3;3;1.292;3.876
+369;"Department of Chemical and Biological Engineering";"BIOCHEMISTRY & MOLECULAR BIOLOGY";45;102;1.265;129.030
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, PAPER & WOOD";10;52;1.260;65.520
+369;"Department of Chemical and Biological Engineering";"FORESTRY";2;3;1.257;3.771
+369;"Department of Chemical and Biological Engineering";"ECOLOGY";1;1;1.255;1.255
+369;"Department of Chemical and Biological Engineering";"PHYSICS, MATHEMATICAL";2;2;1.234;2.468
+369;"Department of Chemical and Biological Engineering";"PHARMACOLOGY & PHARMACY";12;35;1.229;43.015
+369;"Department of Chemical and Biological Engineering";"METEOROLOGY & ATMOSPHERIC SCIENCES";3;4;1.224;4.896
+369;"Department of Chemical and Biological Engineering";"CLINICAL NEUROLOGY";1;1;1.201;1.201
+369;"Department of Chemical and Biological Engineering";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";6;19;1.200;22.800
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";2;2;1.196;2.392
+369;"Department of Chemical and Biological Engineering";"DENTISTRY/ORAL SURGERY & MEDICINE";11;14;1.192;16.688
+369;"Department of Chemical and Biological Engineering";"ELECTROCHEMISTRY";11;27;1.188;32.076
+369;"Department of Chemical and Biological Engineering";"CHEMISTRY, APPLIED";17;74;1.185;87.690
+369;"Department of Chemical and Biological Engineering";"PHYSICS, MULTIDISCIPLINARY";3;27;1.161;31.347
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, BIOMEDICAL";12;28;1.148;32.144
+369;"Department of Chemical and Biological Engineering";"EVOLUTIONARY BIOLOGY";1;1;1.142;1.142
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, CIVIL";4;4;1.139;4.556
+369;"Department of Chemical and Biological Engineering";"TOXICOLOGY";2;4;1.103;4.412
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, BIOMATERIALS";15;36;1.089;39.204
+369;"Department of Chemical and Biological Engineering";"MEDICINE, GENERAL & INTERNAL";1;1;1.086;1.086
+369;"Department of Chemical and Biological Engineering";"PERIPHERAL VASCULAR DISEASE";1;1;1.081;1.081
+369;"Department of Chemical and Biological Engineering";"MINERALOGY";1;1;1.075;1.075
+369;"Department of Chemical and Biological Engineering";"MINING & MINERAL PROCESSING";1;1;1.075;1.075
+369;"Department of Chemical and Biological Engineering";"AGRICULTURE, DAIRY & ANIMAL SCIENCE";2;2;1.072;2.144
+369;"Department of Chemical and Biological Engineering";"WATER RESOURCES";3;4;1.066;4.264
+369;"Department of Chemical and Biological Engineering";"ALLERGY";2;2;1.043;2.086
+369;"Department of Chemical and Biological Engineering";"BIOCHEMICAL RESEARCH METHODS";19;52;1.031;53.612
+369;"Department of Chemical and Biological Engineering";"ENDOCRINOLOGY & METABOLISM";6;7;1.027;7.189
+369;"Department of Chemical and Biological Engineering";"DERMATOLOGY";1;1;1.013;1.013
+369;"Department of Chemical and Biological Engineering";"THERMODYNAMICS";7;11;1.011;11.121
+369;"Department of Chemical and Biological Engineering";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";12;53;1.007;53.371
+369;"Department of Chemical and Biological Engineering";"CHEMISTRY, INORGANIC & NUCLEAR";14;51;1.001;51.051
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, CERAMICS";1;2;1.000;2.000
+369;"Department of Chemical and Biological Engineering";"MICROBIOLOGY";18;47;0.999;46.953
+369;"Department of Chemical and Biological Engineering";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";7;26;0.999;25.974
+369;"Department of Chemical and Biological Engineering";"OCEANOGRAPHY";1;2;0.985;1.970
+369;"Department of Chemical and Biological Engineering";"GEOCHEMISTRY & GEOPHYSICS";1;2;0.968;1.936
+369;"Department of Chemical and Biological Engineering";"SPECTROSCOPY";6;8;0.957;7.656
+369;"Department of Chemical and Biological Engineering";"PHYSICS, FLUIDS & PLASMAS";3;3;0.950;2.850
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, ELECTRICAL & ELECTRONIC";6;8;0.949;7.592
+369;"Department of Chemical and Biological Engineering";"CHEMISTRY, MEDICINAL";9;26;0.947;24.622
+369;"Department of Chemical and Biological Engineering";"NEUROSCIENCES";5;7;0.940;6.580
+369;"Department of Chemical and Biological Engineering";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";3;7;0.928;6.496
+369;"Department of Chemical and Biological Engineering";"CONSTRUCTION & BUILDING TECHNOLOGY";3;3;0.917;2.751
+369;"Department of Chemical and Biological Engineering";"BIOPHYSICS";15;28;0.890;24.920
+369;"Department of Chemical and Biological Engineering";"ASTRONOMY & ASTROPHYSICS";1;1;0.887;0.887
+369;"Department of Chemical and Biological Engineering";"GEOSCIENCES, MULTIDISCIPLINARY";1;1;0.887;0.887
+369;"Department of Chemical and Biological Engineering";"GENETICS & HEREDITY";9;12;0.832;9.984
+369;"Department of Chemical and Biological Engineering";"MYCOLOGY";3;17;0.816;13.872
+369;"Department of Chemical and Biological Engineering";"MEDICINE, RESEARCH & EXPERIMENTAL";5;5;0.814;4.070
+369;"Department of Chemical and Biological Engineering";"IMMUNOLOGY";3;3;0.813;2.439
+369;"Department of Chemical and Biological Engineering";"EDUCATION & EDUCATIONAL RESEARCH";2;4;0.789;3.156
+369;"Department of Chemical and Biological Engineering";"INSTRUMENTS & INSTRUMENTATION";10;13;0.775;10.075
+369;"Department of Chemical and Biological Engineering";"CELL & TISSUE ENGINEERING";3;4;0.770;3.080
+369;"Department of Chemical and Biological Engineering";"SURGERY";1;1;0.746;0.746
+369;"Department of Chemical and Biological Engineering";"PEDIATRICS";1;1;0.744;0.744
+369;"Department of Chemical and Biological Engineering";"CELL BIOLOGY";8;10;0.740;7.400
+369;"Department of Chemical and Biological Engineering";"PHYSIOLOGY";4;4;0.731;2.924
+369;"Department of Chemical and Biological Engineering";"GEOGRAPHY, PHYSICAL";1;1;0.730;0.730
+369;"Department of Chemical and Biological Engineering";"GEOLOGY";1;1;0.730;0.730
+369;"Department of Chemical and Biological Engineering";"RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING";3;6;0.713;4.278
+369;"Department of Chemical and Biological Engineering";"MATERIALS SCIENCE, COATINGS & FILMS";6;15;0.698;10.470
+369;"Department of Chemical and Biological Engineering";"SPORT SCIENCES";1;1;0.685;0.685
+369;"Department of Chemical and Biological Engineering";"NUCLEAR SCIENCE & TECHNOLOGY";11;30;0.683;20.490
+369;"Department of Chemical and Biological Engineering";"MICROSCOPY";3;5;0.664;3.320
+369;"Department of Chemical and Biological Engineering";"ENGINEERING, PETROLEUM";1;2;0.640;1.280
+369;"Department of Chemical and Biological Engineering";"CRYSTALLOGRAPHY";11;31;0.639;19.809
+369;"Department of Chemical and Biological Engineering";"ONCOLOGY";2;2;0.610;1.220
+369;"Department of Chemical and Biological Engineering";"PHYSICS, NUCLEAR";1;3;0.602;1.806
+369;"Department of Chemical and Biological Engineering";"ARCHITECTURE";1;1;0.543;0.543
+369;"Department of Chemical and Biological Engineering";"RESPIRATORY SYSTEM";3;4;0.513;2.052
+369;"Department of Chemical and Biological Engineering";"TRANSPORTATION SCIENCE & TECHNOLOGY";1;1;0.463;0.463
+369;"Department of Chemical and Biological Engineering";"CARDIAC & CARDIOVASCULAR SYSTEMS";1;1;0.347;0.347
+369;"Department of Chemical and Biological Engineering";"EDUCATION, SCIENTIFIC DISCIPLINES";1;1;0.313;0.313
+370;"Department of Materials and Manufacturing Technology";"MATERIALS SCIENCE, COMPOSITES";1;1;1.934;1.934
+370;"Department of Materials and Manufacturing Technology";"CHEMISTRY, ORGANIC";1;3;1.671;5.013
+370;"Department of Materials and Manufacturing Technology";"SPECTROSCOPY";1;1;1.611;1.611
+370;"Department of Materials and Manufacturing Technology";"CHEMISTRY, APPLIED";4;6;1.448;8.688
+370;"Department of Materials and Manufacturing Technology";"PHARMACOLOGY & PHARMACY";3;3;1.422;4.266
+370;"Department of Materials and Manufacturing Technology";"FOOD SCIENCE & TECHNOLOGY";3;3;1.420;4.260
+370;"Department of Materials and Manufacturing Technology";"MATERIALS SCIENCE, PAPER & WOOD";1;1;1.321;1.321
+370;"Department of Materials and Manufacturing Technology";"ENVIRONMENTAL SCIENCES";1;2;1.061;2.122
+370;"Department of Materials and Manufacturing Technology";"BIOCHEMISTRY & MOLECULAR BIOLOGY";1;1;1.053;1.053
+370;"Department of Materials and Manufacturing Technology";"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";6;10;1.023;10.230
+370;"Department of Materials and Manufacturing Technology";"MULTIDISCIPLINARY SCIENCES";1;1;1.012;1.012
+370;"Department of Materials and Manufacturing Technology";"MATERIALS SCIENCE, COATINGS & FILMS";3;4;0.976;3.904
+370;"Department of Materials and Manufacturing Technology";"AUTOMATION & CONTROL SYSTEMS";1;4;0.916;3.664
+370;"Department of Materials and Manufacturing Technology";"INSTRUMENTS & INSTRUMENTATION";3;3;0.914;2.742
+370;"Department of Materials and Manufacturing Technology";"CHEMISTRY, ANALYTICAL";2;3;0.902;2.706
+370;"Department of Materials and Manufacturing Technology";"ENGINEERING, ENVIRONMENTAL";2;3;0.899;2.697
+370;"Department of Materials and Manufacturing Technology";"ENGINEERING, INDUSTRIAL";1;3;0.898;2.694
+370;"Department of Materials and Manufacturing Technology";"ENGINEERING, MANUFACTURING";3;8;0.864;6.912
+370;"Department of Materials and Manufacturing Technology";"MECHANICS";3;6;0.825;4.950
+370;"Department of Materials and Manufacturing Technology";"EDUCATION & EDUCATIONAL RESEARCH";1;1;0.759;0.759
+370;"Department of Materials and Manufacturing Technology";"MATERIALS SCIENCE, MULTIDISCIPLINARY";28;65;0.754;49.010
+370;"Department of Materials and Manufacturing Technology";"MINERALOGY";2;3;0.753;2.259
+370;"Department of Materials and Manufacturing Technology";"MINING & MINERAL PROCESSING";2;3;0.753;2.259
+370;"Department of Materials and Manufacturing Technology";"NANOSCIENCE & NANOTECHNOLOGY";2;8;0.739;5.912
+370;"Department of Materials and Manufacturing Technology";"MICROSCOPY";1;1;0.736;0.736
+370;"Department of Materials and Manufacturing Technology";"POLYMER SCIENCE";13;38;0.722;27.436
+370;"Department of Materials and Manufacturing Technology";"ENGINEERING, MECHANICAL";6;19;0.717;13.623
+370;"Department of Materials and Manufacturing Technology";"PHYSICS, CONDENSED MATTER";5;7;0.682;4.774
+370;"Department of Materials and Manufacturing Technology";"METALLURGY & METALLURGICAL ENGINEERING";17;44;0.671;29.524
+370;"Department of Materials and Manufacturing Technology";"ELECTROCHEMISTRY";2;2;0.654;1.308
+370;"Department of Materials and Manufacturing Technology";"PHYSICS, APPLIED";7;30;0.617;18.510
+370;"Department of Materials and Manufacturing Technology";"ENGINEERING, ELECTRICAL & ELECTRONIC";7;29;0.610;17.690
+370;"Department of Materials and Manufacturing Technology";"CHEMISTRY, PHYSICAL";9;20;0.602;12.040
+370;"Department of Materials and Manufacturing Technology";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";1;1;0.558;0.558
+370;"Department of Materials and Manufacturing Technology";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";1;1;0.558;0.558
+370;"Department of Materials and Manufacturing Technology";"THERMODYNAMICS";1;2;0.548;1.096
+370;"Department of Materials and Manufacturing Technology";"ENGINEERING, CHEMICAL";6;15;0.517;7.755
+370;"Department of Materials and Manufacturing Technology";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";2;2;0.468;0.936
+370;"Department of Materials and Manufacturing Technology";"MATERIALS SCIENCE, BIOMATERIALS";1;1;0.434;0.434
+370;"Department of Materials and Manufacturing Technology";"ENERGY & FUELS";2;2;0.426;0.852
+370;"Department of Materials and Manufacturing Technology";"PHYSICS, FLUIDS & PLASMAS";1;1;0.387;0.387
+370;"Department of Materials and Manufacturing Technology";"PHYSICS, MULTIDISCIPLINARY";1;1;0.211;0.211
+370;"Department of Materials and Manufacturing Technology";"CHEMISTRY, MULTIDISCIPLINARY";1;1;0.167;0.167
+371;"Department of Mathematical Sciences";"MEDICINE, GENERAL & INTERNAL";4;5;2.911;14.555
+371;"Department of Mathematical Sciences";"MATERIALS SCIENCE, BIOMATERIALS";1;1;2.439;2.439
+371;"Department of Mathematical Sciences";"NANOSCIENCE & NANOTECHNOLOGY";1;1;2.062;2.062
+371;"Department of Mathematical Sciences";"PHYSICS, APPLIED";1;1;2.062;2.062
+371;"Department of Mathematical Sciences";"TRANSPORTATION";2;2;1.916;3.832
+371;"Department of Mathematical Sciences";"EVOLUTIONARY BIOLOGY";4;6;1.860;11.160
+371;"Department of Mathematical Sciences";"WATER RESOURCES";2;2;1.807;3.614
+371;"Department of Mathematical Sciences";"ENGINEERING, MULTIDISCIPLINARY";3;9;1.798;16.182
+371;"Department of Mathematical Sciences";"PHYSICS, PARTICLES & FIELDS";5;8;1.795;14.360
+371;"Department of Mathematical Sciences";"AUDIOLOGY & SPEECH-LANGUAGE PATHOLOGY";1;1;1.707;1.707
+371;"Department of Mathematical Sciences";"OTORHINOLARYNGOLOGY";1;1;1.707;1.707
+371;"Department of Mathematical Sciences";"THERMODYNAMICS";1;1;1.669;1.669
+371;"Department of Mathematical Sciences";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";6;6;1.659;9.954
+371;"Department of Mathematical Sciences";"ENGINEERING, ELECTRICAL & ELECTRONIC";4;7;1.641;11.487
+371;"Department of Mathematical Sciences";"ECONOMICS";2;2;1.615;3.230
+371;"Department of Mathematical Sciences";"OPTICS";1;1;1.579;1.579
+371;"Department of Mathematical Sciences";"TRANSPORTATION SCIENCE & TECHNOLOGY";2;2;1.575;3.150
+371;"Department of Mathematical Sciences";"ENGINEERING, ENVIRONMENTAL";4;4;1.555;6.220
+371;"Department of Mathematical Sciences";"ERGONOMICS";1;1;1.553;1.553
+371;"Department of Mathematical Sciences";"SOCIAL SCIENCES, INTERDISCIPLINARY";1;1;1.553;1.553
+371;"Department of Mathematical Sciences";"SOCIAL SCIENCES, BIOMEDICAL";1;1;1.532;1.532
+371;"Department of Mathematical Sciences";"OCEANOGRAPHY";1;1;1.491;1.491
+371;"Department of Mathematical Sciences";"AUTOMATION & CONTROL SYSTEMS";4;6;1.489;8.934
+371;"Department of Mathematical Sciences";"LIMNOLOGY";1;1;1.484;1.484
+371;"Department of Mathematical Sciences";"GASTROENTEROLOGY & HEPATOLOGY";3;6;1.480;8.880
+371;"Department of Mathematical Sciences";"MARINE & FRESHWATER BIOLOGY";4;4;1.455;5.820
+371;"Department of Mathematical Sciences";"ENGINEERING, BIOMEDICAL";2;2;1.454;2.908
+371;"Department of Mathematical Sciences";"MECHANICS";4;12;1.454;17.448
+371;"Department of Mathematical Sciences";"COMPUTER SCIENCE, INFORMATION SYSTEMS";1;2;1.424;2.848
+371;"Department of Mathematical Sciences";"GEOCHEMISTRY & GEOPHYSICS";1;1;1.413;1.413
+371;"Department of Mathematical Sciences";"IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY";1;1;1.413;1.413
+371;"Department of Mathematical Sciences";"VETERINARY SCIENCES";1;1;1.368;1.368
+371;"Department of Mathematical Sciences";"FISHERIES";1;1;1.368;1.368
+371;"Department of Mathematical Sciences";"BIOCHEMISTRY & MOLECULAR BIOLOGY";10;10;1.353;13.530
+371;"Department of Mathematical Sciences";"INTEGRATIVE & COMPLEMENTARY MEDICINE";1;1;1.351;1.351
+371;"Department of Mathematical Sciences";"GEOSCIENCES, MULTIDISCIPLINARY";3;3;1.341;4.023
+371;"Department of Mathematical Sciences";"CHEMISTRY, MULTIDISCIPLINARY";2;2;1.329;2.658
+371;"Department of Mathematical Sciences";"NUTRITION & DIETETICS";1;1;1.303;1.303
+371;"Department of Mathematical Sciences";"ENERGY & FUELS";3;3;1.276;3.828
+371;"Department of Mathematical Sciences";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";3;5;1.259;6.295
+371;"Department of Mathematical Sciences";"ENDOCRINOLOGY & METABOLISM";14;19;1.228;23.332
+371;"Department of Mathematical Sciences";"POLYMER SCIENCE";1;2;1.221;2.442
+371;"Department of Mathematical Sciences";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";11;21;1.216;25.536
+371;"Department of Mathematical Sciences";"FOOD SCIENCE & TECHNOLOGY";1;2;1.214;2.428
+371;"Department of Mathematical Sciences";"REMOTE SENSING";2;2;1.202;2.404
+371;"Department of Mathematical Sciences";"MATERIALS SCIENCE, MULTIDISCIPLINARY";4;5;1.200;6.000
+371;"Department of Mathematical Sciences";"MICROBIOLOGY";6;8;1.193;9.544
+371;"Department of Mathematical Sciences";"PHYSICS, FLUIDS & PLASMAS";2;5;1.193;5.965
+371;"Department of Mathematical Sciences";"NUCLEAR SCIENCE & TECHNOLOGY";1;1;1.158;1.158
+371;"Department of Mathematical Sciences";"MATHEMATICS";89;159;1.156;183.804
+371;"Department of Mathematical Sciences";"ENVIRONMENTAL SCIENCES";12;14;1.155;16.170
+371;"Department of Mathematical Sciences";"CHEMISTRY, PHYSICAL";2;3;1.137;3.411
+371;"Department of Mathematical Sciences";"CARDIAC & CARDIOVASCULAR SYSTEMS";2;2;1.132;2.264
+371;"Department of Mathematical Sciences";"RHEUMATOLOGY";1;1;1.127;1.127
+371;"Department of Mathematical Sciences";"AGRONOMY";1;1;1.120;1.120
+371;"Department of Mathematical Sciences";"GENETICS & HEREDITY";14;21;1.081;22.701
+371;"Department of Mathematical Sciences";"MEDICAL INFORMATICS";1;3;1.070;3.210
+371;"Department of Mathematical Sciences";"MICROSCOPY";2;7;1.068;7.476
+371;"Department of Mathematical Sciences";"ONCOLOGY";11;12;1.064;12.768
+371;"Department of Mathematical Sciences";"ENGINEERING, INDUSTRIAL";5;5;1.053;5.265
+371;"Department of Mathematical Sciences";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";11;14;1.049;14.686
+371;"Department of Mathematical Sciences";"PHYSIOLOGY";3;3;1.038;3.114
+371;"Department of Mathematical Sciences";"ECOLOGY";5;6;1.038;6.228
+371;"Department of Mathematical Sciences";"MEDICINE, LEGAL";1;2;1.036;2.072
+371;"Department of Mathematical Sciences";"CRITICAL CARE MEDICINE";1;1;1.030;1.030
+371;"Department of Mathematical Sciences";"CLINICAL NEUROLOGY";8;16;1.027;16.432
+371;"Department of Mathematical Sciences";"TOXICOLOGY";3;4;1.019;4.076
+371;"Department of Mathematical Sciences";"BIOCHEMICAL RESEARCH METHODS";3;3;1.017;3.051
+371;"Department of Mathematical Sciences";"ENGINEERING, CIVIL";5;7;1.011;7.077
+371;"Department of Mathematical Sciences";"PEDIATRICS";5;8;1.010;8.080
+371;"Department of Mathematical Sciences";"INFECTIOUS DISEASES";10;15;1.009;15.135
+371;"Department of Mathematical Sciences";"NEUROSCIENCES";8;15;0.999;14.985
+371;"Department of Mathematical Sciences";"PSYCHIATRY";4;5;0.985;4.925
+371;"Department of Mathematical Sciences";"TRANSPLANTATION";2;2;0.976;1.952
+371;"Department of Mathematical Sciences";"ANATOMY & MORPHOLOGY";2;3;0.975;2.925
+371;"Department of Mathematical Sciences";"SPORT SCIENCES";1;1;0.973;0.973
+371;"Department of Mathematical Sciences";"MEDICINE, RESEARCH & EXPERIMENTAL";2;4;0.964;3.856
+371;"Department of Mathematical Sciences";"HEALTH POLICY & SERVICES";1;1;0.951;0.951
+371;"Department of Mathematical Sciences";"IMMUNOLOGY";9;12;0.946;11.352
+371;"Department of Mathematical Sciences";"MATHEMATICS, APPLIED";54;96;0.942;90.432
+371;"Department of Mathematical Sciences";"PSYCHOLOGY, MULTIDISCIPLINARY";2;2;0.939;1.878
+371;"Department of Mathematical Sciences";"STATISTICS & PROBABILITY";28;60;0.936;56.160
+371;"Department of Mathematical Sciences";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";6;8;0.935;7.480
+371;"Department of Mathematical Sciences";"BEHAVIORAL SCIENCES";1;1;0.933;0.933
+371;"Department of Mathematical Sciences";"PHYSICS, MATHEMATICAL";16;35;0.899;31.465
+371;"Department of Mathematical Sciences";"FORESTRY";1;1;0.883;0.883
+371;"Department of Mathematical Sciences";"ASTRONOMY & ASTROPHYSICS";2;3;0.881;2.643
+371;"Department of Mathematical Sciences";"CONSTRUCTION & BUILDING TECHNOLOGY";2;2;0.880;1.760
+371;"Department of Mathematical Sciences";"COMPUTER SCIENCE, THEORY & METHODS";3;5;0.878;4.390
+371;"Department of Mathematical Sciences";"NURSING";1;1;0.872;0.872
+371;"Department of Mathematical Sciences";"UROLOGY & NEPHROLOGY";2;2;0.865;1.730
+371;"Department of Mathematical Sciences";"PHARMACOLOGY & PHARMACY";2;2;0.841;1.682
+371;"Department of Mathematical Sciences";"PHYSICS, MULTIDISCIPLINARY";5;10;0.820;8.200
+371;"Department of Mathematical Sciences";"OBSTETRICS & GYNECOLOGY";2;2;0.808;1.616
+371;"Department of Mathematical Sciences";"BIOLOGY";9;15;0.808;12.120
+371;"Department of Mathematical Sciences";"BIOPHYSICS";3;3;0.783;2.349
+371;"Department of Mathematical Sciences";"VIROLOGY";3;5;0.782;3.910
+371;"Department of Mathematical Sciences";"COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE";1;1;0.782;0.782
+371;"Department of Mathematical Sciences";"HEMATOLOGY";2;5;0.781;3.905
+371;"Department of Mathematical Sciences";"PERIPHERAL VASCULAR DISEASE";2;5;0.781;3.905
+371;"Department of Mathematical Sciences";"ENGINEERING, MECHANICAL";7;10;0.766;7.660
+371;"Department of Mathematical Sciences";"REHABILITATION";2;2;0.760;1.520
+371;"Department of Mathematical Sciences";"COMPUTER SCIENCE, SOFTWARE ENGINEERING";1;3;0.757;2.271
+371;"Department of Mathematical Sciences";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";14;22;0.755;16.610
+371;"Department of Mathematical Sciences";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";1;1;0.738;0.738
+371;"Department of Mathematical Sciences";"SPECTROSCOPY";1;1;0.738;0.738
+371;"Department of Mathematical Sciences";"ZOOLOGY";1;1;0.716;0.716
+371;"Department of Mathematical Sciences";"SOIL SCIENCE";1;1;0.693;0.693
+371;"Department of Mathematical Sciences";"GERIATRICS & GERONTOLOGY";1;1;0.689;0.689
+371;"Department of Mathematical Sciences";"ENGINEERING, MARINE";3;5;0.679;3.395
+371;"Department of Mathematical Sciences";"CELL BIOLOGY";2;2;0.663;1.326
+371;"Department of Mathematical Sciences";"PRIMARY HEALTH CARE";1;1;0.646;0.646
+371;"Department of Mathematical Sciences";"MULTIDISCIPLINARY SCIENCES";5;22;0.629;13.838
+371;"Department of Mathematical Sciences";"RADIOLOGY, NUCLEAR MEDICINE & MEDICAL IMAGING";1;1;0.608;0.608
+371;"Department of Mathematical Sciences";"METEOROLOGY & ATMOSPHERIC SCIENCES";1;1;0.602;0.602
+371;"Department of Mathematical Sciences";"CHEMISTRY, MEDICINAL";1;1;0.596;0.596
+371;"Department of Mathematical Sciences";"BIODIVERSITY CONSERVATION";1;1;0.575;0.575
+371;"Department of Mathematical Sciences";"ENGINEERING, MANUFACTURING";2;2;0.543;1.086
+371;"Department of Mathematical Sciences";"COMPUTER SCIENCE, HARDWARE & ARCHITECTURE";1;1;0.439;0.439
+371;"Department of Mathematical Sciences";"OPHTHALMOLOGY";1;2;0.318;0.636
+371;"Department of Mathematical Sciences";"ENGINEERING, OCEAN";1;1;0.289;0.289
+371;"Department of Mathematical Sciences";"HISTORY & PHILOSOPHY OF SCIENCE";1;1;0.213;0.213
+373;"Department of Civil and Environmental Engineering";"PSYCHOLOGY, APPLIED";1;1;1.790;1.790
+373;"Department of Civil and Environmental Engineering";"PSYCHOLOGY, EXPERIMENTAL";3;3;1.747;5.241
+373;"Department of Civil and Environmental Engineering";"GEOGRAPHY, PHYSICAL";1;1;1.673;1.673
+373;"Department of Civil and Environmental Engineering";"AGRICULTURAL ENGINEERING";1;2;1.551;3.102
+373;"Department of Civil and Environmental Engineering";"ENGINEERING, MULTIDISCIPLINARY";4;5;1.509;7.545
+373;"Department of Civil and Environmental Engineering";"MANAGEMENT";4;6;1.489;8.934
+373;"Department of Civil and Environmental Engineering";"MARINE & FRESHWATER BIOLOGY";2;2;1.486;2.972
+373;"Department of Civil and Environmental Engineering";"MINING & MINERAL PROCESSING";1;2;1.419;2.838
+373;"Department of Civil and Environmental Engineering";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";3;3;1.413;4.239
+373;"Department of Civil and Environmental Engineering";"ENERGY & FUELS";4;8;1.307;10.456
+373;"Department of Civil and Environmental Engineering";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";1;1;1.294;1.294
+373;"Department of Civil and Environmental Engineering";"ENGINEERING, ENVIRONMENTAL";12;36;1.262;45.432
+373;"Department of Civil and Environmental Engineering";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";4;6;1.229;7.374
+373;"Department of Civil and Environmental Engineering";"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";1;1;1.213;1.213
+373;"Department of Civil and Environmental Engineering";"PSYCHOLOGY, MULTIDISCIPLINARY";1;1;1.187;1.187
+373;"Department of Civil and Environmental Engineering";"WATER RESOURCES";8;20;1.146;22.920
+373;"Department of Civil and Environmental Engineering";"MATERIALS SCIENCE, COMPOSITES";5;6;1.110;6.660
+373;"Department of Civil and Environmental Engineering";"MECHANICS";9;13;1.108;14.404
+373;"Department of Civil and Environmental Engineering";"GEOSCIENCES, MULTIDISCIPLINARY";6;6;1.048;6.288
+373;"Department of Civil and Environmental Engineering";"FORESTRY";2;2;1.035;2.070
+373;"Department of Civil and Environmental Engineering";"MATERIALS SCIENCE, PAPER & WOOD";2;2;1.035;2.070
+373;"Department of Civil and Environmental Engineering";"COMPUTER SCIENCE, SOFTWARE ENGINEERING";1;1;1.035;1.035
+373;"Department of Civil and Environmental Engineering";"ENVIRONMENTAL SCIENCES";26;51;1.035;52.785
+373;"Department of Civil and Environmental Engineering";"INFECTIOUS DISEASES";1;1;1.011;1.011
+373;"Department of Civil and Environmental Engineering";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";1;1;1.011;1.011
+373;"Department of Civil and Environmental Engineering";"ENGINEERING, INDUSTRIAL";2;2;1.009;2.018
+373;"Department of Civil and Environmental Engineering";"CONSTRUCTION & BUILDING TECHNOLOGY";16;49;1.007;49.343
+373;"Department of Civil and Environmental Engineering";"ENGINEERING, CIVIL";20;54;0.996;53.784
+373;"Department of Civil and Environmental Engineering";"GEOGRAPHY";1;1;0.990;0.990
+373;"Department of Civil and Environmental Engineering";"ENGINEERING, MECHANICAL";10;22;0.932;20.504
+373;"Department of Civil and Environmental Engineering";"ENGINEERING, CHEMICAL";1;1;0.915;0.915
+373;"Department of Civil and Environmental Engineering";"MATERIALS SCIENCE, MULTIDISCIPLINARY";10;31;0.846;26.226
+373;"Department of Civil and Environmental Engineering";"AUDIOLOGY & SPEECH-LANGUAGE PATHOLOGY";1;4;0.829;3.316
+373;"Department of Civil and Environmental Engineering";"SPECTROSCOPY";1;1;0.815;0.815
+373;"Department of Civil and Environmental Engineering";"FOOD SCIENCE & TECHNOLOGY";1;1;0.815;0.815
+373;"Department of Civil and Environmental Engineering";"ENGINEERING, GEOLOGICAL";7;8;0.815;6.520
+373;"Department of Civil and Environmental Engineering";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";3;4;0.794;3.176
+373;"Department of Civil and Environmental Engineering";"MICROBIOLOGY";3;4;0.788;3.152
+373;"Department of Civil and Environmental Engineering";"ACOUSTICS";6;27;0.754;20.358
+373;"Department of Civil and Environmental Engineering";"BIOCHEMICAL RESEARCH METHODS";1;2;0.717;1.434
+373;"Department of Civil and Environmental Engineering";"MATHEMATICAL & COMPUTATIONAL BIOLOGY";1;2;0.717;1.434
+373;"Department of Civil and Environmental Engineering";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";1;1;0.712;0.712
+373;"Department of Civil and Environmental Engineering";"ENVIRONMENTAL STUDIES";3;4;0.708;2.832
+373;"Department of Civil and Environmental Engineering";"SOIL SCIENCE";1;1;0.693;0.693
+373;"Department of Civil and Environmental Engineering";"CHEMISTRY, PHYSICAL";3;3;0.685;2.055
+373;"Department of Civil and Environmental Engineering";"METALLURGY & METALLURGICAL ENGINEERING";1;1;0.620;0.620
+373;"Department of Civil and Environmental Engineering";"CHEMISTRY, ANALYTICAL";5;6;0.619;3.714
+373;"Department of Civil and Environmental Engineering";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";2;2;0.616;1.232
+373;"Department of Civil and Environmental Engineering";"MULTIDISCIPLINARY SCIENCES";1;4;0.603;2.412
+373;"Department of Civil and Environmental Engineering";"THERMODYNAMICS";2;2;0.558;1.116
+373;"Department of Civil and Environmental Engineering";"TOXICOLOGY";1;1;0.543;0.543
+373;"Department of Civil and Environmental Engineering";"METEOROLOGY & ATMOSPHERIC SCIENCES";1;1;0.542;0.542
+373;"Department of Civil and Environmental Engineering";"BIOCHEMISTRY & MOLECULAR BIOLOGY";1;1;0.515;0.515
+373;"Department of Civil and Environmental Engineering";"TRANSPORTATION SCIENCE & TECHNOLOGY";2;3;0.484;1.452
+373;"Department of Civil and Environmental Engineering";"POLYMER SCIENCE";3;3;0.443;1.329
+373;"Department of Civil and Environmental Engineering";"PSYCHOLOGY, SOCIAL";1;1;0.433;0.433
+373;"Department of Civil and Environmental Engineering";"COMMUNICATION";1;1;0.391;0.391
+373;"Department of Civil and Environmental Engineering";"EDUCATION, SCIENTIFIC DISCIPLINES";1;1;0.390;0.390
+373;"Department of Civil and Environmental Engineering";"ARCHITECTURE";1;1;0.390;0.390
+373;"Department of Civil and Environmental Engineering";"LIMNOLOGY";1;2;0.349;0.698
+373;"Department of Civil and Environmental Engineering";"MATHEMATICS, APPLIED";1;1;0.310;0.310
+373;"Department of Civil and Environmental Engineering";"CHEMISTRY, MULTIDISCIPLINARY";2;2;0.279;0.558
+374;"Department of Shipping and Marine Technology";"ENGINEERING, MULTIDISCIPLINARY";1;1;2.721;2.721
+374;"Department of Shipping and Marine Technology";"CHEMISTRY, PHYSICAL";1;1;2.195;2.195
+374;"Department of Shipping and Marine Technology";"ENGINEERING, CHEMICAL";1;1;2.195;2.195
+374;"Department of Shipping and Marine Technology";"MATHEMATICS, INTERDISCIPLINARY APPLICATIONS";2;2;1.796;3.592
+374;"Department of Shipping and Marine Technology";"TOXICOLOGY";1;1;1.658;1.658
+374;"Department of Shipping and Marine Technology";"GEOSCIENCES, MULTIDISCIPLINARY";1;1;1.638;1.638
+374;"Department of Shipping and Marine Technology";"THERMODYNAMICS";1;1;1.606;1.606
+374;"Department of Shipping and Marine Technology";"ENGINEERING, ENVIRONMENTAL";3;4;1.498;5.992
+374;"Department of Shipping and Marine Technology";"ECOLOGY";3;3;1.441;4.323
+374;"Department of Shipping and Marine Technology";"BIOLOGY";1;1;1.404;1.404
+374;"Department of Shipping and Marine Technology";"PHYSIOLOGY";1;1;1.404;1.404
+374;"Department of Shipping and Marine Technology";"ENGINEERING, AEROSPACE";1;2;1.403;2.806
+374;"Department of Shipping and Marine Technology";"SOCIAL SCIENCES, INTERDISCIPLINARY";1;1;1.361;1.361
+374;"Department of Shipping and Marine Technology";"PSYCHIATRY";1;1;1.294;1.294
+374;"Department of Shipping and Marine Technology";"NEUROSCIENCES";1;1;1.294;1.294
+374;"Department of Shipping and Marine Technology";"ENDOCRINOLOGY & METABOLISM";1;1;1.294;1.294
+374;"Department of Shipping and Marine Technology";"PHYSICS, MATHEMATICAL";1;1;1.289;1.289
+374;"Department of Shipping and Marine Technology";"ENGINEERING, ELECTRICAL & ELECTRONIC";1;1;1.255;1.255
+374;"Department of Shipping and Marine Technology";"COMPUTER SCIENCE, INFORMATION SYSTEMS";1;1;1.255;1.255
+374;"Department of Shipping and Marine Technology";"TELECOMMUNICATIONS";1;1;1.255;1.255
+374;"Department of Shipping and Marine Technology";"MECHANICS";4;4;1.217;4.868
+374;"Department of Shipping and Marine Technology";"MARINE & FRESHWATER BIOLOGY";4;5;1.200;6.000
+374;"Department of Shipping and Marine Technology";"ENVIRONMENTAL SCIENCES";6;8;1.182;9.456
+374;"Department of Shipping and Marine Technology";"ENVIRONMENTAL STUDIES";2;3;1.133;3.399
+374;"Department of Shipping and Marine Technology";"TRANSPORTATION SCIENCE & TECHNOLOGY";1;2;1.121;2.242
+374;"Department of Shipping and Marine Technology";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";1;1;1.112;1.112
+374;"Department of Shipping and Marine Technology";"ENERGY & FUELS";3;3;1.056;3.168
+374;"Department of Shipping and Marine Technology";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";2;3;1.037;3.111
+374;"Department of Shipping and Marine Technology";"TRANSPORTATION";4;5;1.024;5.120
+374;"Department of Shipping and Marine Technology";"MICROBIOLOGY";1;1;1.022;1.022
+374;"Department of Shipping and Marine Technology";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";3;3;1.019;3.057
+374;"Department of Shipping and Marine Technology";"PSYCHOLOGY, APPLIED";2;2;0.960;1.920
+374;"Department of Shipping and Marine Technology";"ERGONOMICS";3;4;0.933;3.732
+374;"Department of Shipping and Marine Technology";"MATERIALS SCIENCE, MULTIDISCIPLINARY";1;1;0.924;0.924
+374;"Department of Shipping and Marine Technology";"OCEANOGRAPHY";1;5;0.878;4.390
+374;"Department of Shipping and Marine Technology";"ENGINEERING, INDUSTRIAL";3;4;0.870;3.480
+374;"Department of Shipping and Marine Technology";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";4;5;0.810;4.050
+374;"Department of Shipping and Marine Technology";"ENGINEERING, MARINE";7;24;0.807;19.368
+374;"Department of Shipping and Marine Technology";"HEALTH CARE SCIENCES & SERVICES";1;1;0.783;0.783
+374;"Department of Shipping and Marine Technology";"EDUCATION & EDUCATIONAL RESEARCH";1;1;0.759;0.759
+374;"Department of Shipping and Marine Technology";"METEOROLOGY & ATMOSPHERIC SCIENCES";1;1;0.752;0.752
+374;"Department of Shipping and Marine Technology";"ENGINEERING, CIVIL";6;15;0.693;10.395
+374;"Department of Shipping and Marine Technology";"SOIL SCIENCE";1;1;0.693;0.693
+374;"Department of Shipping and Marine Technology";"ENGINEERING, OCEAN";3;7;0.688;4.816
+374;"Department of Shipping and Marine Technology";"PHYSICS, FLUIDS & PLASMAS";2;2;0.625;1.250
+374;"Department of Shipping and Marine Technology";"ENGINEERING, MECHANICAL";4;5;0.537;2.685
+374;"Department of Shipping and Marine Technology";"MATERIALS SCIENCE, COMPOSITES";1;1;0.508;0.508
+374;"Department of Shipping and Marine Technology";"PSYCHOLOGY, EXPERIMENTAL";1;1;0.225;0.225
+375;"Department of Technology Management and Economics";"TRANSPORTATION SCIENCE & TECHNOLOGY";1;1;2.323;2.323
+375;"Department of Technology Management and Economics";"AGRICULTURAL ENGINEERING";1;1;1.522;1.522
+375;"Department of Technology Management and Economics";"COMPUTER SCIENCE, INFORMATION SYSTEMS";1;1;1.430;1.430
+375;"Department of Technology Management and Economics";"ENGINEERING, ENVIRONMENTAL";2;3;1.396;4.188
+375;"Department of Technology Management and Economics";"ENERGY & FUELS";2;2;1.386;2.772
+375;"Department of Technology Management and Economics";"BIOTECHNOLOGY & APPLIED MICROBIOLOGY";2;2;1.386;2.772
+375;"Department of Technology Management and Economics";"CONSTRUCTION & BUILDING TECHNOLOGY";3;5;1.378;6.890
+375;"Department of Technology Management and Economics";"GEOGRAPHY";2;4;1.332;5.328
+375;"Department of Technology Management and Economics";"SOCIOLOGY";1;1;1.324;1.324
+375;"Department of Technology Management and Economics";"INDUSTRIAL RELATIONS & LABOR";1;1;1.324;1.324
+375;"Department of Technology Management and Economics";"PLANNING & DEVELOPMENT";4;4;1.321;5.284
+375;"Department of Technology Management and Economics";"COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE";3;3;1.295;3.885
+375;"Department of Technology Management and Economics";"ENGINEERING, ELECTRICAL & ELECTRONIC";1;1;1.278;1.278
+375;"Department of Technology Management and Economics";"HEALTH CARE SCIENCES & SERVICES";2;4;1.248;4.992
+375;"Department of Technology Management and Economics";"HEALTH POLICY & SERVICES";2;4;1.248;4.992
+375;"Department of Technology Management and Economics";"COMMUNICATION";3;12;1.214;14.568
+375;"Department of Technology Management and Economics";"COMPUTER SCIENCE, SOFTWARE ENGINEERING";1;1;1.211;1.211
+375;"Department of Technology Management and Economics";"ENVIRONMENTAL SCIENCES";3;4;1.175;4.700
+375;"Department of Technology Management and Economics";"ENGINEERING, CIVIL";2;3;1.167;3.501
+375;"Department of Technology Management and Economics";"PSYCHOLOGY, APPLIED";1;1;1.123;1.123
+375;"Department of Technology Management and Economics";"TRANSPORTATION";5;7;1.104;7.728
+375;"Department of Technology Management and Economics";"INFORMATION SCIENCE & LIBRARY SCIENCE";4;12;1.036;12.432
+375;"Department of Technology Management and Economics";"ENGINEERING, INDUSTRIAL";10;18;0.996;17.928
+375;"Department of Technology Management and Economics";"ENGINEERING, MANUFACTURING";5;10;0.991;9.910
+375;"Department of Technology Management and Economics";"TELECOMMUNICATIONS";1;9;0.982;8.838
+375;"Department of Technology Management and Economics";"NURSING";1;1;0.941;0.941
+375;"Department of Technology Management and Economics";"ECONOMICS";6;9;0.935;8.415
+375;"Department of Technology Management and Economics";"GENETICS & HEREDITY";1;1;0.928;0.928
+375;"Department of Technology Management and Economics";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";1;1;0.928;0.928
+375;"Department of Technology Management and Economics";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";3;4;0.923;3.692
+375;"Department of Technology Management and Economics";"CARDIAC & CARDIOVASCULAR SYSTEMS";1;2;0.917;1.834
+375;"Department of Technology Management and Economics";"BUSINESS";14;28;0.894;25.032
+375;"Department of Technology Management and Economics";"OPERATIONS RESEARCH & MANAGEMENT SCIENCE";9;19;0.893;16.967
+375;"Department of Technology Management and Economics";"COMPUTER SCIENCE, INTERDISCIPLINARY APPLICATIONS";3;4;0.860;3.440
+375;"Department of Technology Management and Economics";"EMERGENCY MEDICINE";1;2;0.856;1.712
+375;"Department of Technology Management and Economics";"ERGONOMICS";1;1;0.837;0.837
+375;"Department of Technology Management and Economics";"EDUCATION & EDUCATIONAL RESEARCH";1;1;0.828;0.828
+375;"Department of Technology Management and Economics";"MANAGEMENT";30;75;0.821;61.575
+375;"Department of Technology Management and Economics";"PUBLIC ADMINISTRATION";1;1;0.743;0.743
+375;"Department of Technology Management and Economics";"FORESTRY";1;1;0.742;0.742
+375;"Department of Technology Management and Economics";"ENVIRONMENTAL STUDIES";2;2;0.726;1.452
+375;"Department of Technology Management and Economics";"COMPUTER SCIENCE, THEORY & METHODS";2;3;0.718;2.154
+375;"Department of Technology Management and Economics";"ENGINEERING, BIOMEDICAL";1;1;0.681;0.681
+375;"Department of Technology Management and Economics";"MATERIALS SCIENCE, BIOMATERIALS";1;1;0.681;0.681
+375;"Department of Technology Management and Economics";"SOCIAL SCIENCES, INTERDISCIPLINARY";2;2;0.639;1.278
+375;"Department of Technology Management and Economics";"FOOD SCIENCE & TECHNOLOGY";2;2;0.572;1.144
+375;"Department of Technology Management and Economics";"ENGINEERING, MULTIDISCIPLINARY";3;7;0.482;3.374
+375;"Department of Technology Management and Economics";"HISTORY & PHILOSOPHY OF SCIENCE";1;2;0.471;0.942
+375;"Department of Technology Management and Economics";"HUMANITIES, MULTIDISCIPLINARY";1;1;0.391;0.391
+523;"Department of Fundamental Physics";"PHYSICS, MULTIDISCIPLINARY";12;36;1.773;63.828
+523;"Department of Fundamental Physics";"ASTRONOMY & ASTROPHYSICS";3;15;1.265;18.975
+523;"Department of Fundamental Physics";"MATHEMATICS";1;4;1.099;4.396
+523;"Department of Fundamental Physics";"MATHEMATICS, APPLIED";1;4;1.099;4.396
+523;"Department of Fundamental Physics";"PHYSICS, PARTICLES & FIELDS";13;96;1.009;96.864
+523;"Department of Fundamental Physics";"PHYSICS, NUCLEAR";12;76;0.970;73.720
+523;"Department of Fundamental Physics";"OPTICS";2;2;0.794;1.588
+523;"Department of Fundamental Physics";"PHYSICS, MATHEMATICAL";4;10;0.757;7.570
+523;"Department of Fundamental Physics";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";3;4;0.629;2.516
+523;"Department of Fundamental Physics";"INSTRUMENTS & INSTRUMENTATION";2;15;0.386;5.790
+523;"Department of Fundamental Physics";"NUCLEAR SCIENCE & TECHNOLOGY";2;15;0.386;5.790
+523;"Department of Fundamental Physics";"SPECTROSCOPY";1;13;0.374;4.862
+523;"Department of Fundamental Physics";"MULTIDISCIPLINARY SCIENCES";1;1;0.023;0.023
+1643;"Department of Applied Information Technology (Chalmers)";"ROBOTICS";1;1;1.373;1.373
+1643;"Department of Applied Information Technology (Chalmers)";"INFORMATION SCIENCE & LIBRARY SCIENCE";2;4;1.242;4.968
+1643;"Department of Applied Information Technology (Chalmers)";"COMPUTER SCIENCE, SOFTWARE ENGINEERING";1;1;1.048;1.048
+1643;"Department of Applied Information Technology (Chalmers)";"COMPUTER SCIENCE, HARDWARE & ARCHITECTURE";1;1;1.048;1.048
+1643;"Department of Applied Information Technology (Chalmers)";"ECOLOGY";1;1;1.044;1.044
+1643;"Department of Applied Information Technology (Chalmers)";"EDUCATION & EDUCATIONAL RESEARCH";3;3;0.969;2.907
+1643;"Department of Applied Information Technology (Chalmers)";"COMPUTER SCIENCE, INFORMATION SYSTEMS";1;2;0.929;1.858
+1643;"Department of Applied Information Technology (Chalmers)";"LANGUAGE & LINGUISTICS THEORY";2;3;0.916;2.748
+1643;"Department of Applied Information Technology (Chalmers)";"LINGUISTICS";2;3;0.916;2.748
+1643;"Department of Applied Information Technology (Chalmers)";"MANAGEMENT";2;3;0.761;2.283
+1643;"Department of Applied Information Technology (Chalmers)";"ENVIRONMENTAL STUDIES";4;4;0.713;2.852
+1643;"Department of Applied Information Technology (Chalmers)";"ENGINEERING, INDUSTRIAL";1;1;0.707;0.707
+1643;"Department of Applied Information Technology (Chalmers)";"ERGONOMICS";1;1;0.707;0.707
+1643;"Department of Applied Information Technology (Chalmers)";"ENGINEERING, MANUFACTURING";1;2;0.615;1.230
+1643;"Department of Applied Information Technology (Chalmers)";"ART";1;2;0.615;1.230
+1643;"Department of Applied Information Technology (Chalmers)";"ENGINEERING, MULTIDISCIPLINARY";1;2;0.615;1.230
+1643;"Department of Applied Information Technology (Chalmers)";"INTERNATIONAL RELATIONS";1;1;0.582;0.582
+1643;"Department of Applied Information Technology (Chalmers)";"SOCIAL SCIENCES, INTERDISCIPLINARY";2;3;0.551;1.653
+1643;"Department of Applied Information Technology (Chalmers)";"MATHEMATICS, APPLIED";1;1;0.540;0.540
+1643;"Department of Applied Information Technology (Chalmers)";"ENVIRONMENTAL SCIENCES";1;1;0.512;0.512
+1643;"Department of Applied Information Technology (Chalmers)";"GREEN & SUSTAINABLE SCIENCE & TECHNOLOGY";1;1;0.512;0.512
+1643;"Department of Applied Information Technology (Chalmers)";"COMMUNICATION";1;1;0.456;0.456
+1643;"Department of Applied Information Technology (Chalmers)";"BUSINESS";1;1;0.456;0.456
+1643;"Department of Applied Information Technology (Chalmers)";"PSYCHOLOGY, EXPERIMENTAL";1;2;0.391;0.782
+1643;"Department of Applied Information Technology (Chalmers)";"COMPUTER SCIENCE, ARTIFICIAL INTELLIGENCE";1;2;0.391;0.782
+1643;"Department of Applied Information Technology (Chalmers)";"NEUROSCIENCES";1;2;0.391;0.782
+1643;"Department of Applied Information Technology (Chalmers)";"PUBLIC, ENVIRONMENTAL & OCCUPATIONAL HEALTH";2;2;0.351;0.702
+1695;"Department of Earth and Space Sciences";"MULTIDISCIPLINARY SCIENCES";3;7;4.972;34.804
+1695;"Department of Earth and Space Sciences";"BIOLOGY";1;1;2.595;2.595
+1695;"Department of Earth and Space Sciences";"ENVIRONMENTAL STUDIES";1;1;2.277;2.277
+1695;"Department of Earth and Space Sciences";"BIODIVERSITY CONSERVATION";1;1;2.056;2.056
+1695;"Department of Earth and Space Sciences";"ELECTROCHEMISTRY";1;1;1.963;1.963
+1695;"Department of Earth and Space Sciences";"ENERGY & FUELS";1;1;1.963;1.963
+1695;"Department of Earth and Space Sciences";"MATERIALS SCIENCE, MULTIDISCIPLINARY";1;1;1.963;1.963
+1695;"Department of Earth and Space Sciences";"PHYSICS, MULTIDISCIPLINARY";5;11;1.655;18.205
+1695;"Department of Earth and Space Sciences";"OCEANOGRAPHY";1;1;1.567;1.567
+1695;"Department of Earth and Space Sciences";"ECOLOGY";2;4;1.547;6.188
+1695;"Department of Earth and Space Sciences";"ENVIRONMENTAL SCIENCES";6;10;1.504;15.040
+1695;"Department of Earth and Space Sciences";"IMAGING SCIENCE & PHOTOGRAPHIC TECHNOLOGY";5;13;1.486;19.318
+1695;"Department of Earth and Space Sciences";"GEOGRAPHY, PHYSICAL";1;1;1.403;1.403
+1695;"Department of Earth and Space Sciences";"CHEMISTRY, PHYSICAL";2;2;1.333;2.666
+1695;"Department of Earth and Space Sciences";"REMOTE SENSING";9;24;1.229;29.496
+1695;"Department of Earth and Space Sciences";"PHYSICS, ATOMIC, MOLECULAR & CHEMICAL";1;1;1.218;1.218
+1695;"Department of Earth and Space Sciences";"SPECTROSCOPY";1;10;1.209;12.090
+1695;"Department of Earth and Space Sciences";"ENGINEERING, ELECTRICAL & ELECTRONIC";9;29;1.201;34.829
+1695;"Department of Earth and Space Sciences";"METEOROLOGY & ATMOSPHERIC SCIENCES";16;96;1.198;115.008
+1695;"Department of Earth and Space Sciences";"GEOSCIENCES, MULTIDISCIPLINARY";9;15;1.193;17.895
+1695;"Department of Earth and Space Sciences";"OPTICS";7;23;1.129;25.967
+1695;"Department of Earth and Space Sciences";"GEOCHEMISTRY & GEOPHYSICS";10;27;1.096;29.592
+1695;"Department of Earth and Space Sciences";"ASTRONOMY & ASTROPHYSICS";17;289;1.081;312.409
+1695;"Department of Earth and Space Sciences";"PHYSICS, NUCLEAR";2;15;1.040;15.600
+1695;"Department of Earth and Space Sciences";"TELECOMMUNICATIONS";3;11;1.034;11.374
+1695;"Department of Earth and Space Sciences";"ENGINEERING, ENVIRONMENTAL";1;4;1.002;4.008
+1695;"Department of Earth and Space Sciences";"PHYSICS, FLUIDS & PLASMAS";6;37;0.952;35.224
+1695;"Department of Earth and Space Sciences";"NUCLEAR SCIENCE & TECHNOLOGY";1;5;0.932;4.660
+1695;"Department of Earth and Space Sciences";"PHYSICS, MATHEMATICAL";2;2;0.875;1.750
+1695;"Department of Earth and Space Sciences";"PHYSICS, APPLIED";7;14;0.809;11.326
+1695;"Department of Earth and Space Sciences";"PHYSICS, CONDENSED MATTER";2;3;0.628;1.884
+1695;"Department of Earth and Space Sciences";"INSTRUMENTS & INSTRUMENTATION";1;1;0.529;0.529
