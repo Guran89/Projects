@@ -1,5 +1,12 @@
 #encoding: utf-8
-import os, time
+import os, time, sys
+
+#Check the Python version and quit if version is lower than 3.
+py_version = sys.version_info.major
+if py_version < 3:
+    print("You need a newer version of Python. You are running version " + str(py_version) + ".")
+    print("Please install version 3.x and try again.")
+    quit()
 
 if not os.path.exists("docs"):
     os.makedirs("docs")
