@@ -1,0 +1,4 @@
+id;category;value2
+1;cat1;123
+2;cat2;897
+3;cat3;234324
