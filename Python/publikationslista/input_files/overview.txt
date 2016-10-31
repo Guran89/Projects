@@ -1,4 +1,4 @@
-id;category;value
-1;23;34.5
-2;45;435345
-3;123;34.12
+instid;dept;n;p;jf;jfxp
+40;"Department of Radio and Space Science";24;71;0.989;70.219
+41;"Department of Signals and Systems";134;478;1.144;546.832
+46;"Department of Applied Mechanics";131;355;0.954;338.670

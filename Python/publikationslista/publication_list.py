@@ -44,38 +44,70 @@ for row in all_files:
 all_files_temp = []
 
 #Create empty array to store the IDs from the files
-ids = []
+ids = set()
 
 #Access the IDs and save in ids array
 for post in all_files:
     for i in post:
-        ids.append(i[0])
+        temp_split = i.split(";")
+        ids.add(temp_split[0])
+
 
 for post in all_files:
     for i in post:
         split = i.split(";")
         all_files_temp.append(split)
 
-headcount = 0
+###TILLFÄLLIGT!###
 
+headerDict = dict()
+dictcount = 0
+for h in headers:
+    headerDict[dictcount] = h
+    dictcount += 1
+
+"""
+newfile = ""
 for i in ids:
     newfile = open("output_files/" + i + ".txt", "w")
-    for header in headers:
-        newfile.write(";".join(header))
-        newfile.write("\n")
     for j in all_files_temp:
         if int(j[0]) == int(i):
             newfile.write(";".join(j))
             newfile.write("\n")
-    headcount += 1
+"""
+
+fileDict = dict()
+fileDictCount = 0
+for f in all_files:
+    fileDict[fileDictCount] = f
+    fileDictCount += 1
 
 
-###TILLFÄLLIGT!###
+for i in ids:
+    newfile = open("output_files/" + i + ".txt", "w")
 
-myDict = []
-headercount = 0
-for h in headers:
-    header = {headercount: h}
-    myDict.append(header)
-    headercount += 1
-print(myDict)
+def printHeader(count):
+    for k, h in headerDict.items():
+        if k == count:
+            print("\n" + ";".join(h))
+            newfile.write("\n" + ";".join(h))
+            newfile.write("\n")
+
+def printFile(instID):
+    headcount = 0
+    for i, j in fileDict.items():
+        printHeader(headcount)
+        for k in j:
+            tempsplit = k.split(";")
+            if str(instID) == tempsplit[0]:
+                newfile = open("output_files/" + instID + ".txt", "a")
+                print(k)
+                newfile.write(";".join(tempsplit))
+                newfile.write("\n")
+        headcount += 1
+
+
+for i in ids:
+    printFile(i)
+
+newfile.close()
