@@ -1,6 +1,10 @@
+#encoding: utf-8
+#Import necessary packages
 import os, sys
 
+
 ###STAGE 1###
+
 #Check the version of Python to make sure that it is at least Python 3
 py_version = sys.version_info.major
 if py_version < 3:
@@ -28,9 +32,6 @@ for post in os.listdir("input_files/"):
     if post.endswith(".txt"):
         all_files.append(open("input_files/" + post, "r").read().replace(".", ",").split("\n"))
 
-
-###STAGE 3###
-
 #Create empty array to store the headers from the input files
 headers = []
 
@@ -50,20 +51,28 @@ for post in all_files:
         temp_split = i.split(";")
         ids.add(temp_split[0])
 
-###TEMP!###
 
+###STAGE 3###
+
+#Create dictionary to store headers
 headerDict = dict()
+
+#Add headers to headers dictionary
 dictcount = 0
 for h in headers:
     headerDict[dictcount] = h
     dictcount += 1
 
+#Create dictionary to store files
 fileDict = dict()
+
+#Add files to files dictionary
 fileDictCount = 0
 for f in all_files:
     fileDict[fileDictCount] = f
     fileDictCount += 1
 
+#Create documents in the output dir to write to
 newfile = ""
 for i in ids:
     newfile = open("output_files/" + i + ".txt", "w")
@@ -71,11 +80,13 @@ for i in ids:
     newfile.write("\n")
     newfile.close()
 
+#Function to write headers
 def printHeader(count):
     for key, header in headerDict.items():
         if key == count:
             newfile.write(";".join(header))
 
+#Function to write to the documents
 def printFile(instID):
     headcount = 1
     for i, j in fileDict.items():
@@ -83,7 +94,7 @@ def printFile(instID):
             tempsplit = k.split(";")
             if str(instID) == tempsplit[0]:
                 newfile = open("output_files/" + instID + ".txt", "a")
-                print(";".join(tempsplit))
+                #print(";".join(tempsplit))
                 newfile.write(";".join(tempsplit))
                 newfile.write("\n")
         if headcount <= len(headerDict)-1:
@@ -93,8 +104,6 @@ def printFile(instID):
 
     newfile.close()
 
+#Run function for every ID
 for i in ids:
     printFile(i)
-
-for i in ids:
-    print(i)
