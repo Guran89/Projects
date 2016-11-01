@@ -19,3 +19,6 @@ instid;dept;category;p;n;jf;jfxp
 46;"Department of Applied Mechanics";"MECHANICS";33;88;1.139;100.232
 46;"Department of Applied Mechanics";"CLINICAL NEUROLOGY";3;5;1.112;5.560
 46;"Department of Applied Mechanics";"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";2;2;1.104;2.208
+52;”Department of Test”;"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";2;2;1.104;2.208
+52;”Department of Test”;"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";2;2;1.104;2.208
+52;”Department of Test”;"MATERIALS SCIENCE, CHARACTERIZATION & TESTING";2;2;1.104;2.208
