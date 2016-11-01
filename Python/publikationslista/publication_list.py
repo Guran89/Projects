@@ -12,7 +12,7 @@ if py_version < 3:
 if not os.path.exists("input_files"):
     os.makedirs("input_files")
     print("There wasn't any input directory, so I made one for you.")
-    print("Please put the input files in the input directory and run this script again.")
+    print("Please put the input files in the input directory and run the script again.")
     quit()
 
 #If there is not a directory for the output files, create one
@@ -50,7 +50,7 @@ for post in all_files:
         temp_split = i.split(";")
         ids.add(temp_split[0])
 
-###TILLFÄLLIGT!###
+###TEMP!###
 
 headerDict = dict()
 dictcount = 0
@@ -69,6 +69,7 @@ for i in ids:
     newfile = open("output_files/" + i + ".txt", "w")
     newfile.write(";".join(headerDict[0]))
     newfile.write("\n")
+    newfile.close()
 
 def printHeader(count):
     for key, header in headerDict.items():
@@ -82,6 +83,7 @@ def printFile(instID):
             tempsplit = k.split(";")
             if str(instID) == tempsplit[0]:
                 newfile = open("output_files/" + instID + ".txt", "a")
+                print(";".join(tempsplit))
                 newfile.write(";".join(tempsplit))
                 newfile.write("\n")
         if headcount <= len(headerDict)-1:
@@ -89,11 +91,10 @@ def printFile(instID):
             newfile.write("\n")
         headcount += 1
 
-    #newfile.close()
+    newfile.close()
 
 for i in ids:
     printFile(i)
 
 for i in ids:
     print(i)
-newfile.close()
