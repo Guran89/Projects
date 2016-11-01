@@ -41,8 +41,6 @@ for row in all_files:
 for row in all_files:
     del(row[0])
 
-all_files_temp = []
-
 #Create empty array to store the IDs from the files
 ids = set()
 
@@ -52,12 +50,6 @@ for post in all_files:
         temp_split = i.split(";")
         ids.add(temp_split[0])
 
-
-for post in all_files:
-    for i in post:
-        split = i.split(";")
-        all_files_temp.append(split)
-
 ###TILLFÄLLIGT!###
 
 headerDict = dict()
@@ -66,48 +58,42 @@ for h in headers:
     headerDict[dictcount] = h
     dictcount += 1
 
-"""
-newfile = ""
-for i in ids:
-    newfile = open("output_files/" + i + ".txt", "w")
-    for j in all_files_temp:
-        if int(j[0]) == int(i):
-            newfile.write(";".join(j))
-            newfile.write("\n")
-"""
-
 fileDict = dict()
 fileDictCount = 0
 for f in all_files:
     fileDict[fileDictCount] = f
     fileDictCount += 1
 
-
+newfile = ""
 for i in ids:
     newfile = open("output_files/" + i + ".txt", "w")
+    newfile.write(";".join(headerDict[0]))
+    newfile.write("\n")
 
 def printHeader(count):
-    for k, h in headerDict.items():
-        if k == count:
-            print("\n" + ";".join(h))
-            newfile.write("\n" + ";".join(h))
-            newfile.write("\n")
+    for key, header in headerDict.items():
+        if key == count:
+            newfile.write(";".join(header))
 
 def printFile(instID):
-    headcount = 0
+    headcount = 1
     for i, j in fileDict.items():
-        printHeader(headcount)
         for k in j:
             tempsplit = k.split(";")
             if str(instID) == tempsplit[0]:
                 newfile = open("output_files/" + instID + ".txt", "a")
-                print(k)
                 newfile.write(";".join(tempsplit))
                 newfile.write("\n")
+        if headcount <= len(headerDict)-1:
+            newfile.write(";".join(headerDict[headcount]))
+            newfile.write("\n")
         headcount += 1
 
+    #newfile.close()
 
 for i in ids:
     printFile(i)
 
+for i in ids:
+    print(i)
 newfile.close()
