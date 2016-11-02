@@ -9,33 +9,52 @@ import os, sys
 py_version = sys.version_info.major
 if py_version < 3:
     print("You need a newer version of Python. You are running version " + str(py_version) + ".")
-    print("Please install version 3.x and try again.")
+    print("Please install Python version 3.x and try again.\nYou can find the latest version on www.python.org.")
     quit()
 
 #Make sure there is a correct dir for input files
-if not os.path.exists("input_files"):
-    os.makedirs("input_files")
-    print("There wasn't any input directory, so I created one for you.")
-    print("Please put the input files in the input directory and run the script again.")
-    quit()
+if os.name == 'posix': #MacOS
+    if not os.path.exists("input_files/"):
+        os.makedirs("input_files/")
+        print("There wasn't any input directory, so I created one for you.")
+        print("Please put the input files in the input directory and run the script again.")
+        quit()
+elif os.name == 'nt': #Windows
+    if not os.path.exists("input_files\\"):
+        os.makedirs("input_files\\")
+        print("There wasn't any input directory, so I created one for you.")
+        print("Please put the input files in the input directory and run the script again.")
+        quit()
 
 #If there is not a directory for the output files, create one
-if not os.path.exists("output_files"):
-    os.makedirs("output_files")
+if os.name == 'posix': #MacOS
+    if not os.path.exists("output_files/"):
+        os.makedirs("output_files/")
+elif os.name == 'nt': #Windows
+    if not os.path.exists("output_files\\"):
+        os.makedirs("output_files\\")
 
 print("\n*****************************************************")
 print("This script takes one or more files and separates the data regarding to some kind of ID.")
 print("Make sure that the first column in every file is the ID you want to use to separate the files.")
-print("We want to manage the files found in the directory\n " + os.getcwd() + "/input_files")
+if os.name =='posix': #MacOS
+    print("We want to manage the files found in the directory\n " + os.getcwd() + "/input_files")
+elif os.name == 'nt': #Windows
+    print("We want to manage the files found in the directory\n " + os.getcwd() + "\\input_files")
 print("*****************************************************\n")
 
 ###STAGE 2###
 
 #Read and prepare all the input files
 all_files = []
-for post in os.listdir("input_files/"):
-    if post.endswith(".txt"):
-        all_files.append(open("input_files/" + post, "r").read().replace(".", ",").split("\n"))
+if os.name == 'posix': #MacOS
+    for post in os.listdir("input_files/"):
+        if post.endswith(".txt"):
+            all_files.append(open("input_files/" + post, "r").read().replace(".", ",").split("\n"))
+elif os.name == 'nt': #Windows
+    for post in os.listdir("input_files\\"):
+        if post.endswith(".txt"):
+            all_files.append(open("input_files\\" + post, "r").read().replace(".", ",").split("\n"))
 
 #Create empty array to store the headers from the input files
 headers = []
@@ -44,6 +63,7 @@ headers = []
 for row in all_files:
     headers.append(row[0].split(";"))
 
+#Delete the headers row from the files (they are now available in the headers array)
 for row in all_files:
     del(row[0])
 
@@ -80,7 +100,10 @@ for f in all_files:
 #Create documents in the output dir to write to
 newfile = ""
 for i in ids:
-    newfile = open("output_files/" + i + ".txt", "w")
+    if os.name == 'posix': #MacOS
+        newfile = open("output_files/" + i + ".txt", "w")
+    elif os.name == 'nt': #Windows
+        newfile = open("output_files\\" + i + ".txt", "w")
     newfile.write(";".join(headerDict[0]))
     newfile.write("\n")
     newfile.close()
@@ -98,8 +121,10 @@ def printFile(instID):
         for k in j:
             tempsplit = k.split(";")
             if str(instID) == tempsplit[0]:
-                newfile = open("output_files/" + instID + ".txt", "a")
-                #print(";".join(tempsplit))
+                if os.name == 'posix': #MacOS
+                    newfile = open("output_files/" + instID + ".txt", "a")
+                elif os.name == 'nt': #Windows
+                    newfile = open("output_files\\" + instID + ".txt", "a")
                 newfile.write(";".join(tempsplit))
                 newfile.write("\n")
         if headcount <= len(headerDict)-1:
