@@ -34,13 +34,14 @@ elif os.name == 'nt': #Windows
     if not os.path.exists("output_files\\"):
         os.makedirs("output_files\\")
 
+#Print welcome message and instructions
 print("\n*****************************************************************\n")
 print("This script takes one or more files and separates the\ndata regarding to some kind of ID.")
 print("Make sure that the first column in every file is the ID\nyou want to use to separate the files.")
 if os.name =='posix': #MacOS
-    print("We want to manage the files found in the directory\n" + os.getcwd() + "/input_files")
+    print("We will use the files found in the directory\n" + os.getcwd() + "/input_files")
 elif os.name == 'nt': #Windows
-    print("We want to manage the files found in the directory\n" + os.getcwd() + "\\input_files")
+    print("We will use the files found in the directory\n" + os.getcwd() + "\\input_files")
 print("\n*****************************************************************\n")
 
 #Get the delimiter used in the files
