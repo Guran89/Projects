@@ -1,6 +1,6 @@
 #encoding: utf-8
 #Import necessary packages
-import os, sys
+import os, sys, time
 
 
 ###STAGE 1###
@@ -38,10 +38,17 @@ print("\n*****************************************************")
 print("This script takes one or more files and separates the data regarding to some kind of ID.")
 print("Make sure that the first column in every file is the ID you want to use to separate the files.")
 if os.name =='posix': #MacOS
-    print("We want to manage the files found in the directory\n " + os.getcwd() + "/input_files")
+    print("We want to manage the files found in the directory\n" + os.getcwd() + "/input_files")
 elif os.name == 'nt': #Windows
-    print("We want to manage the files found in the directory\n " + os.getcwd() + "\\input_files")
+    print("We want to manage the files found in the directory\n" + os.getcwd() + "\\input_files")
 print("*****************************************************\n")
+
+#Get the delimiter used in the files
+delimiter = input("What delimiter is used in the input files?\n> ")
+time.sleep(0.2)
+ifHeader = input("\nAre there headers in the input files? (y/n)\n> ")
+time.sleep(0.2)
+outDelimiter = input("\nWhat delimiter do you want to use in the output files?\n> ")
 
 ###STAGE 2###
 
@@ -61,11 +68,12 @@ headers = []
 
 #Get headers from the input files and store in headers array
 for row in all_files:
-    headers.append(row[0].split(";"))
+    headers.append(row[0].split(delimiter))
 
 #Delete the headers row from the files (they are now available in the headers array)
-for row in all_files:
-    del(row[0])
+if ifHeader == 'y' or ifHeader == 'Y':
+    for row in all_files:
+        del(row[0])
 
 #Create empty array to store the IDs from the files
 ids = set()
@@ -73,7 +81,7 @@ ids = set()
 #Access the IDs and save in ids array
 for post in all_files:
     for i in post:
-        temp_split = i.split(";")
+        temp_split = i.split(delimiter)
         ids.add(temp_split[0])
 
 
@@ -104,7 +112,7 @@ for i in ids:
         newfile = open("output_files/" + i + ".txt", "w")
     elif os.name == 'nt': #Windows
         newfile = open("output_files\\" + i + ".txt", "w")
-    newfile.write(";".join(headerDict[0]))
+    newfile.write(outDelimiter.join(headerDict[0]))
     newfile.write("\n")
     newfile.close()
 
@@ -112,23 +120,23 @@ for i in ids:
 def printHeader(count):
     for key, header in headerDict.items():
         if key == count:
-            newfile.write(";".join(header))
+            newfile.write(outDelimiter.join(header))
 
 #Function to write to the documents
 def printFile(instID):
     headcount = 1
     for i, j in fileDict.items():
         for k in j:
-            tempsplit = k.split(";")
+            tempsplit = k.split(delimiter)
             if str(instID) == tempsplit[0]:
                 if os.name == 'posix': #MacOS
                     newfile = open("output_files/" + instID + ".txt", "a")
                 elif os.name == 'nt': #Windows
                     newfile = open("output_files\\" + instID + ".txt", "a")
-                newfile.write(";".join(tempsplit))
+                newfile.write(outDelimiter.join(tempsplit))
                 newfile.write("\n")
         if headcount <= len(headerDict)-1:
-            newfile.write(";".join(headerDict[headcount]))
+            newfile.write(outDelimiter.join(headerDict[headcount]))
             newfile.write("\n")
         headcount += 1
 
@@ -137,3 +145,12 @@ def printFile(instID):
 #Run function for every ID
 for i in ids:
     printFile(i)
+
+time.sleep(0.2)
+print("\n*****************************************************")
+print("Success! You can find the finished files in: ")
+if os.name == 'posix': #MacOS
+    print(os.getcwd() + "/output_files/")
+elif os.name == 'nt': #Windows
+    print(os.getcwd() + "\\output_files\\")
+print("*****************************************************\n")
