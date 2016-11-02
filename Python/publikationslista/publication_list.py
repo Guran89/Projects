@@ -1,4 +1,4 @@
-#encoding: utf-8
+#encoding: utf8
 #Import necessary packages
 import os, sys, time
 
@@ -63,7 +63,7 @@ if os.name == 'posix': #MacOS
 elif os.name == 'nt': #Windows
     for post in os.listdir("input_files\\"):
         if post.endswith(".txt") or post.endswith(".csv"):
-            all_files.append(open("input_files\\" + post, "r").read().replace(".", ",").split("\n"))
+            all_files.append(open("input_files\\" + post, "r", encoding="utf8").read().replace(".", ",").split("\n"))
 
 #Create empty array to store the headers from the input files
 headers = []
