@@ -1,7 +1,10 @@
-Om det finns fler ID än antalet filer kallas följande error:
+-Om det finns fler ID än antalet filer kallas följande error:
 Traceback (most recent call last):
   File "publication_list.py", line 149, in <module>
     printFile(i)
   File "publication_list.py", line 141, in printFile
     newfile.write(outDelimiter.join(headerDict[headcount]))
 UnboundLocalError: local variable 'newfile' referenced before assignment
+
+
+-Om det saknas data för ett visst ID kommer den filen ändå få alla rubriker, men ingen data under de rubrikerna där det saknas.
