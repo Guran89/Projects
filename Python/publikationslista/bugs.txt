@@ -1,0 +1,7 @@
+Om det finns fler ID än antalet filer kallas följande error:
+Traceback (most recent call last):
+  File "publication_list.py", line 149, in <module>
+    printFile(i)
+  File "publication_list.py", line 141, in printFile
+    newfile.write(outDelimiter.join(headerDict[headcount]))
+UnboundLocalError: local variable 'newfile' referenced before assignment
