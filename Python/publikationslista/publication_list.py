@@ -15,7 +15,7 @@ if py_version < 3:
 #Make sure there is a correct dir for input files
 if not os.path.exists("input_files"):
     os.makedirs("input_files")
-    print("There wasn't any input directory, so I made one for you.")
+    print("There wasn't any input directory, so I created one for you.")
     print("Please put the input files in the input directory and run the script again.")
     quit()
 
@@ -23,6 +23,11 @@ if not os.path.exists("input_files"):
 if not os.path.exists("output_files"):
     os.makedirs("output_files")
 
+print("\n*****************************************************")
+print("This script takes one or more files and separates the data regarding to some kind of ID.")
+print("Make sure that the first column in every file is the ID you want to use to separate the files.")
+print("We want to manage the files found in the directory\n " + os.getcwd() + "/input_files")
+print("*****************************************************\n")
 
 ###STAGE 2###
 
