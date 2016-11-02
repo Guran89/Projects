@@ -34,14 +34,14 @@ elif os.name == 'nt': #Windows
     if not os.path.exists("output_files\\"):
         os.makedirs("output_files\\")
 
-print("\n*****************************************************")
-print("This script takes one or more files and separates the data regarding to some kind of ID.")
-print("Make sure that the first column in every file is the ID you want to use to separate the files.")
+print("\n*****************************************************************\n")
+print("This script takes one or more files and separates the\ndata regarding to some kind of ID.")
+print("Make sure that the first column in every file is the ID\nyou want to use to separate the files.")
 if os.name =='posix': #MacOS
     print("We want to manage the files found in the directory\n" + os.getcwd() + "/input_files")
 elif os.name == 'nt': #Windows
     print("We want to manage the files found in the directory\n" + os.getcwd() + "\\input_files")
-print("*****************************************************\n")
+print("\n*****************************************************************\n")
 
 #Get the delimiter used in the files
 delimiter = input("What delimiter is used in the input files?\n> ")
@@ -50,17 +50,18 @@ ifHeader = input("\nAre there headers in the input files? (y/n)\n> ")
 time.sleep(0.2)
 outDelimiter = input("\nWhat delimiter do you want to use in the output files?\n> ")
 
+
 ###STAGE 2###
 
 #Read and prepare all the input files
 all_files = []
 if os.name == 'posix': #MacOS
     for post in os.listdir("input_files/"):
-        if post.endswith(".txt"):
+        if post.endswith(".txt") or post.endswith(".csv"):
             all_files.append(open("input_files/" + post, "r").read().replace(".", ",").split("\n"))
 elif os.name == 'nt': #Windows
     for post in os.listdir("input_files\\"):
-        if post.endswith(".txt"):
+        if post.endswith(".txt") or post.endswith(".csv"):
             all_files.append(open("input_files\\" + post, "r").read().replace(".", ",").split("\n"))
 
 #Create empty array to store the headers from the input files
@@ -147,10 +148,10 @@ for i in ids:
     printFile(i)
 
 time.sleep(0.2)
-print("\n*****************************************************")
+print("\n*****************************************************************\n")
 print("Success! You can find the finished files in: ")
 if os.name == 'posix': #MacOS
     print(os.getcwd() + "/output_files/")
 elif os.name == 'nt': #Windows
     print(os.getcwd() + "\\output_files\\")
-print("*****************************************************\n")
+print("\n*****************************************************************\n")
