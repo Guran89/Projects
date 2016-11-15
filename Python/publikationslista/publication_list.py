@@ -118,12 +118,6 @@ for i in ids:
     newfile.write("\n")
     newfile.close()
 
-#Function to write headers
-def printHeader(count):
-    for key, header in headerDict.items():
-        if key == count:
-            newfile.write(outDelimiter.join(header))
-
 #Function to write to the documents
 def printFile(instID):
     headcount = 1
@@ -138,9 +132,10 @@ def printFile(instID):
                 newfile.write(outDelimiter.join(tempsplit))
                 newfile.write("\n")
         if headcount <= len(headerDict)-1:
+            newfile.write("\n")
             newfile.write(outDelimiter.join(headerDict[headcount]))
             newfile.write("\n")
-    headcount += 1
+        headcount += 1
 
     newfile.close()
 
