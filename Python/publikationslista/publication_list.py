@@ -45,11 +45,11 @@ elif os.name == 'nt': #Windows
 print("\n*****************************************************************\n")
 
 #Get the delimiter used in the files
-delimiter = ";" #input("What delimiter is used in the input files?\n> ")
+delimiter = input("What delimiter is used in the input files?\n> ")
 time.sleep(0.2)
-ifHeader = "y" #input("\nAre there headers in the input files? (y/n)\n> ")
+ifHeader = input("\nAre there headers in the input files? (y/n)\n> ")
 time.sleep(0.2)
-outDelimiter = ";" #input("\nWhat delimiter do you want to use in the output files?\n> ")
+outDelimiter = input("\nWhat delimiter do you want to use in the output files?\n> ")
 
 
 ###STAGE 2###
