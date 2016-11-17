@@ -1,0 +1,87 @@
+instid;py;en_name;journumb;n;jf;jfxpub
+40;2010;Department of Radio and Space Science;24;71;0.992;70.432
+41;2010;Department of Signals and Systems;40;72;1.089;78.408
+41;2011;Department of Signals and Systems;42;70;1.188;83.160
+41;2012;Department of Signals and Systems;57;114;1.130;128.820
+41;2013;Department of Signals and Systems;47;98;1.064;104.272
+41;2014;Department of Signals and Systems;62;124;1.247;154.628
+46;2010;Department of Applied Mechanics;40;54;0.960;51.840
+46;2011;Department of Applied Mechanics;49;70;0.975;68.250
+46;2012;Department of Applied Mechanics;39;58;0.888;51.504
+46;2013;Department of Applied Mechanics;50;90;1.024;92.160
+46;2014;Department of Applied Mechanics;56;83;0.913;75.779
+52;2010;Department of Product and Production Development;4;5;0.925;4.625
+52;2011;Department of Product and Production Development;6;7;0.759;5.313
+52;2012;Department of Product and Production Development;10;18;0.556;10.008
+52;2013;Department of Product and Production Development;18;24;0.861;20.664
+52;2014;Department of Product and Production Development;14;21;0.719;15.099
+55;2010;Department of Applied Physics;93;165;1.429;235.785
+55;2011;Department of Applied Physics;90;187;1.397;261.239
+55;2012;Department of Applied Physics;93;172;1.279;219.988
+55;2013;Department of Applied Physics;104;204;1.461;298.044
+55;2014;Department of Applied Physics;110;222;1.389;308.358
+182;2010;Department of Microtechnology and Nanoscience;59;121;1.343;162.503
+182;2011;Department of Microtechnology and Nanoscience;65;138;1.342;185.196
+182;2012;Department of Microtechnology and Nanoscience;71;148;1.244;184.112
+182;2013;Department of Microtechnology and Nanoscience;75;160;1.190;190.400
+182;2014;Department of Microtechnology and Nanoscience;76;165;1.184;195.360
+366;2010;Department of Computer Science and Engineering (Chalmers);20;24;0.816;19.584
+366;2011;Department of Computer Science and Engineering (Chalmers);20;24;0.951;22.824
+366;2012;Department of Computer Science and Engineering (Chalmers);20;30;0.635;19.050
+366;2013;Department of Computer Science and Engineering (Chalmers);24;40;0.839;33.560
+366;2014;Department of Computer Science and Engineering (Chalmers);28;35;0.777;27.195
+367;2010;Department of Architecture;5;5;0.740;3.700
+367;2011;Department of Architecture;3;3;0.379;1.137
+367;2012;Department of Architecture;3;3;0.503;1.509
+367;2013;Department of Architecture;1;2;0.370;0.740
+367;2014;Department of Architecture;6;8;0.796;6.368
+368;2010;Department of Energy and Environment;41;63;1.451;91.413
+368;2011;Department of Energy and Environment;39;70;1.231;86.170
+368;2012;Department of Energy and Environment;56;92;1.224;112.608
+368;2013;Department of Energy and Environment;53;110;1.151;126.610
+368;2014;Department of Energy and Environment;62;117;1.204;140.868
+369;2010;Department of Chemical and Biological Engineering;158;259;1.364;353.276
+369;2011;Department of Chemical and Biological Engineering;177;264;1.263;333.432
+369;2012;Department of Chemical and Biological Engineering;176;282;1.336;376.752
+369;2013;Department of Chemical and Biological Engineering;211;388;1.264;490.432
+369;2014;Department of Chemical and Biological Engineering;223;369;1.339;494.091
+370;2010;Department of Materials and Manufacturing Technology;18;27;0.785;21.195
+370;2011;Department of Materials and Manufacturing Technology;25;36;0.817;29.412
+370;2012;Department of Materials and Manufacturing Technology;36;49;0.667;32.683
+370;2013;Department of Materials and Manufacturing Technology;34;50;0.704;35.200
+370;2014;Department of Materials and Manufacturing Technology;27;38;0.612;23.256
+371;2010;Department of Mathematical Sciences;98;116;1.046;121.336
+371;2011;Department of Mathematical Sciences;85;103;1.283;132.149
+371;2012;Department of Mathematical Sciences;97;112;1.104;123.648
+371;2013;Department of Mathematical Sciences;113;132;1.019;134.508
+371;2014;Department of Mathematical Sciences;98;119;1.092;129.948
+373;2010;Department of Civil and Environmental Engineering;23;32;0.873;27.936
+373;2011;Department of Civil and Environmental Engineering;23;26;1.053;27.378
+373;2012;Department of Civil and Environmental Engineering;33;41;0.941;38.581
+373;2013;Department of Civil and Environmental Engineering;47;57;1.000;57.000
+373;2014;Department of Civil and Environmental Engineering;50;64;0.943;60.352
+374;2010;Department of Shipping and Marine Technology;10;11;1.148;12.628
+374;2011;Department of Shipping and Marine Technology;6;7;0.907;6.349
+374;2012;Department of Shipping and Marine Technology;12;14;0.922;12.908
+374;2013;Department of Shipping and Marine Technology;19;20;1.005;20.100
+374;2014;Department of Shipping and Marine Technology;19;23;0.926;21.298
+375;2010;Department of Technology Management and Economics;22;27;0.915;24.705
+375;2011;Department of Technology Management and Economics;20;25;0.936;23.400
+375;2012;Department of Technology Management and Economics;21;25;1.020;25.500
+375;2013;Department of Technology Management and Economics;30;41;0.956;39.196
+375;2014;Department of Technology Management and Economics;34;40;0.860;34.400
+523;2010;Department of Fundamental Physics;11;28;1.108;31.024
+523;2011;Department of Fundamental Physics;12;34;1.069;36.346
+523;2012;Department of Fundamental Physics;13;36;1.149;41.364
+523;2013;Department of Fundamental Physics;19;44;1.171;51.524
+523;2014;Department of Fundamental Physics;14;46;1.345;61.870
+1643;2010;Department of Applied Information Technology (Chalmers);3;3;0.734;2.202
+1643;2011;Department of Applied Information Technology (Chalmers);4;5;0.758;3.790
+1643;2012;Department of Applied Information Technology (Chalmers);4;5;0.638;3.190
+1643;2013;Department of Applied Information Technology (Chalmers);6;7;0.881;6.167
+1643;2014;Department of Applied Information Technology (Chalmers);6;6;0.730;4.380
+1695;2010;Department of Earth and Space Sciences;16;70;1.031;72.170
+1695;2011;Department of Earth and Space Sciences;36;97;1.103;106.991
+1695;2012;Department of Earth and Space Sciences;35;110;1.217;133.870
+1695;2013;Department of Earth and Space Sciences;36;113;1.144;129.272
+1695;2014;Department of Earth and Space Sciences;40;138;1.351;186.438

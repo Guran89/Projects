@@ -1,5 +1,19 @@
-instid;dept;n;p;jf;jfxp
-40;"Department of Radio and Space Science";24;71;0.989;70.219
-41;"Department of Signals and Systems";134;478;1.144;546.832
-46;"Department of Applied Mechanics";131;355;0.954;338.670
-52;”Department of Test”;132;352;0.924;332.670
+instid;en_name;journumb;n;jf;jfxpub
+40;Department of Radio and Space Science;24;71;0.992;70.432
+41;Department of Signals and Systems;134;478;1.149;549.222
+46;Department of Applied Mechanics;131;355;0.957;339.735
+52;Department of Product and Production Development;37;75;0.743;55.725
+55;Department of Applied Physics;263;950;1.393;1323.350
+182;Department of Microtechnology and Nanoscience;178;732;1.254;917.928
+366;Department of Computer Science and Engineering (Chalmers);75;153;0.799;122.247
+367;Department of Architecture;14;21;0.641;13.461
+368;Department of Energy and Environment;133;452;1.234;557.768
+369;Department of Chemical and Biological Engineering;523;1562;1.311;2047.782
+370;Department of Materials and Manufacturing Technology;93;200;0.709;141.800
+371;Department of Mathematical Sciences;357;582;1.102;641.364
+373;Department of Civil and Environmental Engineering;118;220;0.960;211.200
+374;Department of Shipping and Marine Technology;51;75;0.977;73.275
+375;Department of Technology Management and Economics;85;158;0.932;147.256
+523;Department of Fundamental Physics;33;188;1.182;222.216
+1643;Department of Applied Information Technology (Chalmers);20;26;0.759;19.734
+1695;Department of Earth and Space Sciences;85;528;1.191;628.848
