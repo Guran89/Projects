@@ -5,14 +5,14 @@ import os, sys, time
 
 ###STAGE 1###
 
-#Check the version of Python to make sure that it is at least Python 3
+#Check the version of Python to make sure that it is at least Python 3. Otherwise, let the user know and abort script
 py_version = sys.version_info.major
 if py_version < 3:
     print("You need a newer version of Python. You are running version " + str(py_version) + ".")
     print("Please install Python version 3.x and try again.\nYou can find the latest version on www.python.org.")
     quit()
 
-#Make sure there is a correct directory for input files
+#Make sure there is a correct directory for input files, otherwise create one and inform user to put input files in new directory
 if os.name == 'posix': #MacOS
     if not os.path.exists("input_files/"):
         os.makedirs("input_files/")
@@ -35,7 +35,7 @@ elif os.name == 'nt': #Windows
         os.makedirs("output_files\\")
 
 #Print welcome message and instructions
-print("\n*****************************************************************\n")
+print("\n*****************************\t************************************\n")
 print("This script takes one or more files and separates the\ndata regarding to some kind of ID.")
 print("Make sure that the first column in every file is the ID\nyou want to use to separate the files.")
 if os.name =='posix': #MacOS
@@ -47,8 +47,10 @@ print("\n*****************************************************************\n")
 #Get the delimiter used in the files
 delimiter = input("What delimiter is used in the input files?\n> ")
 time.sleep(0.2)
+#Check if the files have headers
 ifHeader = input("\nAre there headers in the input files? (y/n)\n> ")
 time.sleep(0.2)
+#Get the delimiter to use in the output files
 outDelimiter = input("\nWhat delimiter do you want to use in the output files?\n> ")
 
 
@@ -77,10 +79,10 @@ if ifHeader == 'y' or ifHeader == 'Y' or ifHeader == 'yes' or ifHeader == 'Yes':
     for row in all_files:
         del(row[0])
 
-#Create empty array to store the IDs from the files
+#Create empty set to store the IDs from the files
 ids = set()
 
-#Access the IDs and save in ids array
+#Access the IDs and save in ids set
 for post in all_files:
     for i in post:
         temp_split = i.split(delimiter)
@@ -98,7 +100,7 @@ for h in headers:
     headerDict[dictcount] = h
     dictcount += 1
 
-#Create dictionary to store files
+#Create dictionary to store input files
 fileDict = dict()
 
 #Add files to files dictionary
