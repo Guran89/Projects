@@ -6,7 +6,6 @@ Traceback (most recent call last):
     newfile.write(outDelimiter.join(headerDict[headcount]))
 UnboundLocalError: local variable 'newfile' referenced before assignment
 
-Denna bugg tycks vara fixad nu.
 
 
 -Om det saknas data för ett visst ID kommer den filen ändå få alla rubriker, men ingen data under de rubrikerna där det saknas.
