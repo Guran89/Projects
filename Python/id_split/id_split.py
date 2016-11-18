@@ -52,7 +52,10 @@ try:
     ifHeader = input("\nAre there headers in the input files? (y/n)\n> ")
     time.sleep(0.2)
     #Get the delimiter to use in the output files
-    outDelimiter = input("\nWhat delimiter do you want to use in the output files?\n> ")
+    outDelimiter = input("\nWhat delimiter do you want to use in the output files?\nIf you want tabs as delimiter, write 'tab'\n> ")
+
+    if outDelimiter == "tab" or outDelimiter == "Tab":
+        outDelimiter = "\t"
 
 
     ###STAGE 2###
