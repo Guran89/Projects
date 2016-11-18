@@ -1,9 +1,0 @@
-Namn,Axe,Catapult,Bow,Rat,Crossbow,Plats
-Gustav,2,2,10,1,6,7
-Vidar,3,3,6,2,7,4
-Martina,0,0,3,3,6,8
-Markus,3,3,7,2,6,1
-Magnus,5,2,7,1,8,2
-Linda,3,3,7,1,4,5
-Josefin,2,2,7,3,8,3
-Kristoffer,2,2,6,3,7,6
