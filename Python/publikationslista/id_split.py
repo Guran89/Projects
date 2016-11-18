@@ -1,6 +1,6 @@
 #encoding: utf8
 #Import necessary packages
-import os, sys, time
+import os, sys, time, pdb
 
 
 ###STAGE 1###
@@ -135,6 +135,10 @@ try:
                     newfile.write(outDelimiter.join(tempsplit))
                     newfile.write("\n")
             if headcount <= len(headerDict)-1:
+                if os.name == 'posix': #MacOS
+                    newfile = open("output_files/" + instID + ".txt", "a")
+                elif os.name == 'nt': #Windows
+                    newfile = open("output_files\\" + instID + ".txt", "a")
                 newfile.write("\n")
                 newfile.write(outDelimiter.join(headerDict[headcount]))
                 newfile.write("\n")
