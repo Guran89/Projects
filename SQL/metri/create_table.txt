@@ -1,8 +1,0 @@
---Skapa ny tabell.
-
-CREATE TABLE tabell(
-id INT NOT NULL,
-värde1 VARCHAR(50),
-värde2 INT,
-värde3 INT,
-PRIMARY KEY (id))

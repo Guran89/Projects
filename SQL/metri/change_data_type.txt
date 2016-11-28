@@ -1,3 +1,0 @@
---Kod för att ändra datatyp för en kolumn i ett visst table
-ALTER TABLE [table]
-ALTER COLUMN [kolumn] SET DATA TYPE [datatyp]

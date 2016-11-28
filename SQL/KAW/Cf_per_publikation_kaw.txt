@@ -1,6 +1,0 @@
---Cf (utan självciteringar) per publikation
-SELECT cx5/fcsx5 AS publ_cf
-FROM cwts
-INNER JOIN kaw ON cwts.isi_id = kaw.isi_id
-WHERE cwts.py BETWEEN 2004 AND 2013 -- Ändra till aktuella år
-AND kaw.personid = 4411 --Ändra till aktuellt personid
