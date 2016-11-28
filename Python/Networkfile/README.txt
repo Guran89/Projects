@@ -1,1 +1,0 @@
-A script to convert a list of publications and institutions to a networkfile. 
