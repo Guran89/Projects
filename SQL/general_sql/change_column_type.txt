@@ -1,0 +1,6 @@
+--Ändra kolumntyp, här från datatyp1 till datatyp2.
+
+ALTER TABLE tabell ALTER COLUMN kolumn SET DATA TYPE datatyp2
+
+--Förklaring: Koden ändrar vilken typ av data en kolumn innehåller. Exempel på datatyper är:
+--INT, VARCHAR, YEAR, BOOLEAN
