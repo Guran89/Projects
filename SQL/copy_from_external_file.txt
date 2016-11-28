@@ -1,0 +1,6 @@
+--Fyll en tabell med data från en utf8-textfil.
+
+COPY tabell
+FROM E’/home/CID/filnamn.txt’ --Fyll i aktuellt CID och filnamn här
+WITH DELIMITER AS E’\t’ --’\t’ innebär tabseparerad, ändra om fil separerad med annat tecken, exempelvis ’,’, ’|’ eller ’;’
+CSV HEADER --Om filen som ska laddas har en header, annars ta bort denna rad

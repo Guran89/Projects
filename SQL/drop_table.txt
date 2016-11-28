@@ -1,0 +1,5 @@
+--Radera tabell
+
+DROP TABLE tabell
+
+--Förklaring: Raderar en tabell. Gör inte detta om du inte är absolut säker. Går inte att ångra.
