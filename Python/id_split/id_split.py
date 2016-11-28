@@ -1,9 +1,13 @@
 #encoding: utf8
-#Import necessary packages
-import os, sys, time, pdb
+#Script last updated: 2016-11-28
+#Script by: Kristoffer Karlsson. kristoffer89.karlsson@gmail.com
 
 
 ###STAGE 1###
+
+#Import necessary packages
+import os, sys, time, pdb
+
 try:
     #Check the version of Python to make sure that it is at least Python 3. Otherwise, let the user know and abort script
     py_version = sys.version_info.major
@@ -54,7 +58,7 @@ try:
     #Get the delimiter to use in the output files
     outDelimiter = input("\nWhat delimiter do you want to use in the output files?\nIf you want tabs as delimiter, write 'tab'\n> ")
 
-    if outDelimiter == "tab" or outDelimiter == "Tab":
+    if outDelimiter == "tab" or outDelimiter == "Tab" or outDelimiter == "'tab'" or outDelimiter == "'Tab'":
         outDelimiter = "\t"
 
 
