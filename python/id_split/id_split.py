@@ -1,6 +1,6 @@
 #encoding: utf8
-#Script last updated: 2017-03-16
-#Script by: Kristoffer Karlsson. kristoffer.karlsson@hb.se
+#Script last updated: 2017-11-28
+#Script by: Kristoffer Warnberg. kristoffer.warnberg@hb.se
 
 
 ###STAGE 1###
