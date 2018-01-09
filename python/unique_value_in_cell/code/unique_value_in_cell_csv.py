@@ -7,7 +7,6 @@ from collections import Counter
 cwd = os.getcwd() # Get the current working directory
 
 try:
-
     # Check the version of Python to make sure that it is at least Python 3. Otherwise, let the user know and abort script
     py_version = sys.version_info.major
     if py_version < 3:
@@ -21,7 +20,7 @@ try:
 
     if database == "wos":
         path = "wos"
-        with open('input_wos.csv', 'r', newline='') as csvfile:
+        with open('input_wos.csv', 'r', newline='', encoding='utf-8') as csvfile:
             csv_reader = csv.reader(csvfile, delimiter=';')
             #next(csv_reader)
             for line in csv_reader:
