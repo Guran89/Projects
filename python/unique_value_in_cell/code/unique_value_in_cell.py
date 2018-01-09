@@ -19,10 +19,10 @@ try:
     if database == "wos":
         if os.name == 'posix': #MacOS
             data = open(cwd + "/../input_files/publications_wos.txt", encoding='utf-8').read() # Import publication data
-            path = "WoS"
+            path = "wos"
         elif os.name == 'nt': #Windows
             data = open(cwd + "\\..\\input_files\\publications_wos.txt", encoding='utf-8').read() # Import publication data
-            path = "WoS"
+            path = "wos"
     elif database == "sco":
         if os.name == 'posix': #MacOS
             data = open(cwd + "/../input_files/publications_scopus.txt", encoding='utf-8').read() # Import publication datase
@@ -103,9 +103,9 @@ try:
     print("\n*****************************************************************\n")
     print("Success! You can find the finished files in the directory: ")
     if database == "wos":
-        print("output_files/WoS")
+        print("output_files/wos")
     elif database == "sco":
-        print("output_files/Scopus")
+        print("output_files/scopus")
     print("\n*****************************************************************\n")
 
 except KeyboardInterrupt:
