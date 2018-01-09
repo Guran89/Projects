@@ -27,7 +27,7 @@ try:
                 data.append(line)
     elif database == "sco":
         path = "sco"
-        with open('input_sco.csv', 'r', newline='') as csvfile:
+        with open('input_sco.csv', 'r', newline='', encoding='utf-8') as csvfile:
             csv_reader = csv.reader(csvfile, delimiter=';')
             #next(csv_reader)
             for line in csv_reader:
