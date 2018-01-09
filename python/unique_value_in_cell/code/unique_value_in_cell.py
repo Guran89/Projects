@@ -18,17 +18,17 @@ try:
     # Open the relevant documents and import data
     if database == "wos":
         if os.name == 'posix': #MacOS
-            data = open(cwd + "/../input_files/publications_wos.txt").read() # Import publication data
+            data = open(cwd + "/../input_files/publications_wos.txt", encoding='utf-8').read() # Import publication data
             path = "WoS"
         elif os.name == 'nt': #Windows
-            data = open(cwd + "\\..\\input_files\\publications_wos.txt").read() # Import publication data
+            data = open(cwd + "\\..\\input_files\\publications_wos.txt", encoding='utf-8').read() # Import publication data
             path = "WoS"
     elif database == "sco":
         if os.name == 'posix': #MacOS
-            data = open(cwd + "/../input_files/publications_scopus.txt").read() # Import publication datase
+            data = open(cwd + "/../input_files/publications_scopus.txt", encoding='utf-8').read() # Import publication datase
             path = "scopus"
         elif os.name == 'nt': #Windows
-            data = open(cwd + "\\..\\input_files\\publications_scopus.txt").read() # Import publication datase
+            data = open(cwd + "\\..\\input_files\\publications_scopus.txt", encoding='utf-8').read() # Import publication datase
             path = "scopus"
     else:
         print("Wrong input. Try again.")
