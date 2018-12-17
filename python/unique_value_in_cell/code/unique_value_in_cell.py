@@ -91,11 +91,24 @@ try:
     elif os.name == 'nt': #Windows
         newfile = open(cwd + "\\..\\output_files\\" + path + "\\output_" + set_year + "_" + database + ".csv", "w") # Create a new file
 
+    all_cooperations_counter = 0 # Count the number of all cooperations
+
+    for c, n in counted_countries.items():
+        all_cooperations_counter = all_cooperations_counter + n
+
+    all_cooperations_counter_no_swe = 0 # Count the number of cooperations without Sweden
+
+    for i, j in counted_countries.items():
+        if i == "Sweden":
+            all_cooperations_counter_no_swe = all_cooperations_counter - j
+
     # Loop for getting info to write to file
     for i, j in counted_countries.items():
         to_write = i + ";" + str(j) + "\n"
         newfile.write(to_write)
-    newfile.write("Totalt antal samarbeten;" + str(cooperation_counter))
+    newfile.write("Totalt:;" + str(all_cooperations_counter) + "\n")
+    newfile.write("Totalt utan Sverige:;" + str(all_cooperations_counter_no_swe) + "\n")
+    newfile.write("Totalt antal samarbeten:;" + str(cooperation_counter))
     newfile.close()
 
     time.sleep(0.2)
