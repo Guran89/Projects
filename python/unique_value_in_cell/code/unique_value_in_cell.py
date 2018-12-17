@@ -25,10 +25,10 @@ try:
             path = "wos"
     elif database == "sco":
         if os.name == 'posix': #MacOS
-            data = open(cwd + "/../input_files/publications_scopus.txt", encoding='utf-8').read() # Import publication datase
+            data = open(cwd + "/../input_files/publications_scopus.txt", encoding='utf-8').read() # Import publication dataset
             path = "scopus"
         elif os.name == 'nt': #Windows
-            data = open(cwd + "\\..\\input_files\\publications_scopus.txt", encoding='utf-8').read() # Import publication datase
+            data = open(cwd + "\\..\\input_files\\publications_scopus.txt", encoding='utf-8').read() # Import publication dataset
             path = "scopus"
     else:
         print("Wrong input. Try again.")
