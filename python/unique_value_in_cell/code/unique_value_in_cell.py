@@ -108,7 +108,7 @@ try:
         if set_year in row:
             number_of_publications += 1
 
-    print(number_of_publications)
+    percentage = round(cooperation_counter/number_of_publications*100, 2)
 
     # Loop for getting info to write to file
     for i, j in counted_countries.items():
@@ -117,7 +117,8 @@ try:
     newfile.write("Totalt:;" + str(all_cooperations_counter) + "\n")
     newfile.write("Totalt utan Sverige:;" + str(all_cooperations_counter_no_swe) + "\n")
     newfile.write("Totalt antal samarbeten:;" + str(cooperation_counter) + "\n")
-    newfile.write("Antal publikationer:;" + str(number_of_publications))
+    newfile.write("Antal publikationer:;" + str(number_of_publications) + "\n")
+    newfile.write("Andel samarbeten:;" + str(percentage) + "%")
     newfile.close()
 
     time.sleep(0.2)
