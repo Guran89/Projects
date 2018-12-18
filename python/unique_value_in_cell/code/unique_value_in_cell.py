@@ -102,13 +102,22 @@ try:
         if i == "Sweden":
             all_cooperations_counter_no_swe = all_cooperations_counter - j
 
+    number_of_publications = 0
+
+    for row in data:
+        if set_year in row:
+            number_of_publications += 1
+
+    print(number_of_publications)
+
     # Loop for getting info to write to file
     for i, j in counted_countries.items():
         to_write = i + ";" + str(j) + "\n"
         newfile.write(to_write)
     newfile.write("Totalt:;" + str(all_cooperations_counter) + "\n")
     newfile.write("Totalt utan Sverige:;" + str(all_cooperations_counter_no_swe) + "\n")
-    newfile.write("Totalt antal samarbeten:;" + str(cooperation_counter))
+    newfile.write("Totalt antal samarbeten:;" + str(cooperation_counter) + "\n")
+    newfile.write("Antal publikationer:;" + str(number_of_publications))
     newfile.close()
 
     time.sleep(0.2)
