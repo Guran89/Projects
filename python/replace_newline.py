@@ -51,16 +51,16 @@ if os.name == 'posix':
 if os.name == 'nt':
     enter_info()
     harddrive = input("\nWhat harddrive do you use?\nHarddrive (D or C, for example):") #Which harddrive is the desktop located in?
-    data = open(harddrive+":\\Users\\"+sign+".NET\\Desktop\\"+old_ids+".txt", "r").read() #Open file to be modified
+    data = open(harddrive+":\\Users\\"+sign+"\\Desktop\\"+old_ids+".txt", "r").read() #Open file to be modified
     data_no_line = data.replace("\n", replacement) #Replace newlines with the chosen sign
-    newfile = open(harddrive+":\\Users\\"+sign+".NET\\Desktop\\"+new_ids+".txt", "w") #Create new file called what the user choose .txt
+    newfile = open(harddrive+":\\Users\\"+sign+"\\Desktop\\"+new_ids+".txt", "w") #Create new file called what the user choose .txt
     newfile.write(data_no_line) #Write to the new file
     newfile.close() #Close the file
     print("Working...")
     time.sleep(1) #Dramatic pause
-    print ("\nTa-dah! File created.\nYou can find it at: "+harddrive+":\\Users\\"+sign+".NET\\Desktop"+new_ids+".txt") #Message that the convertion is correct
+    print ("\nTa-dah! File created.\nYou can find it at: "+harddrive+":\\Users\\"+sign+"\\Desktop"+new_ids+".txt") #Message that the convertion is correct
 
     #Ask if the user wants the results printed out in the terminal
     choice = input("\nDo you want to see the results?\n(Y/N) ")
     if choice == "Y" or choice == "y":
-        print(open(harddrive+":\\Users\\"+sign+".NET\\Desktop\\"+new_ids+".txt", "r").read())
+        print(open(harddrive+":\\Users\\"+sign+"\\Desktop\\"+new_ids+".txt", "r").read())
